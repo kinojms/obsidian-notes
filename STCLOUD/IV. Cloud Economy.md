@@ -4,5 +4,6 @@
 - charged per hour/second*
 - varies by instance type
 - by location
-- *linux only*
-- 
+	- you can choose the region
+	- per region has a difference in price
+- per second is for Linux only
