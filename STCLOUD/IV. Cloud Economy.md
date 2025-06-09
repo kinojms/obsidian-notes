@@ -18,5 +18,5 @@
 	- charged typically per GB
 	- storage type
 
-## Data Transfere
+## Data Transfer
 
