@@ -27,7 +27,10 @@
 - rent, reserve, volume-based discount
 - pay for what you use
 	- rent / on-demand
+	- more demand than reserve
 - pay less when you reserve
 	- you are committing to a long-term usage of the cloud
 	- 1 or 3 yr commitment
-	- *Note: If you reserve,*
+	- *Note: If you reserve, you lose scaling on-demand advantage
+	- is cheaper than on-demand
+- pay less when you use more and as AWS grows
