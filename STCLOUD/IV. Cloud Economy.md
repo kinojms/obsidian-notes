@@ -7,4 +7,5 @@
 	- you can choose the region
 	- per region has a difference in price
 - per second is for Linux only
-- we use cloud pricing calculators to estimate how much it will cost you if you would opt for cloud or on-premise w d
+
+Note: we use cloud pricing calculators to estimate how much it will cost you if you would opt for cloud or on-premise
