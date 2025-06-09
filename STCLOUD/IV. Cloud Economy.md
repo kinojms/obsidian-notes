@@ -10,3 +10,5 @@
 
 *Note: we use Cloud Pricing Calculators to estimate how much it will cost you if you would opt for cloud or on-premise*
 
+
+
