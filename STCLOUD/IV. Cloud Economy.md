@@ -22,4 +22,12 @@
 - outbound is aggregated and charged
 - inbound has no charge with some exceptions)
 - charged typically per GB
-![[Pasted image 20250609134539.png]]
+
+# How do you pay for AWS?
+- rent, reserve, volume-based discount
+- pay for what you use
+	- rent / on-demand
+- pay less when you reserve
+	- you are committing to a long-term usage of the cloud
+	- 1 or 3 yr commitment
+	- *Note: If you reserve,*
