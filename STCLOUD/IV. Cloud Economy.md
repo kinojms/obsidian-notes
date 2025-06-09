@@ -19,4 +19,4 @@
 	- storage type
 
 ## Data Transfer
-
+- outbound is 
