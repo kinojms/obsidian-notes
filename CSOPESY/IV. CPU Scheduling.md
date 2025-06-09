@@ -75,9 +75,12 @@ Static threads can end up overwriting the outputs of another thread when threadi
 | -------- | --- | --- | --- | --- | -------- | --- | -------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | -------- | --- | --- | --- |
 | P1 Start |     |     |     |     | P2 start |     | P3 start |     |     |     |     |     |     |     |     |     |     |     | P4 start |     |     |     |
 
-| Process  | Arrival Time | 2   | 3   | 4   |     |     |     |     |     |     |     |
-| -------- | ------------ | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| P1 Start |              |     |     |     |     |     |     |     |     |     |     |
+| Process | Arrival Time | Burst Time | Priority |
+| ------- | ------------ | ---------- | -------- |
+| P1      | 1            | 20         | 1        |
+| P2      | 3            | 4          | 6        |
+| P3      | 8            | 6          | 2        |
+| P4      | 11           | 12         | 3        |
 ## Shortest-Job-First (SJF) Scheduling
 - associate with each process the length of its next CPU burst
 - use these lengths to schedule the process with the shortest time
