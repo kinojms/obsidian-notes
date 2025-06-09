@@ -11,6 +11,7 @@
 	- *per second is for Linux only*
 
 *Note: we use Cloud Pricing Calculators to estimate how much it will cost you if you would opt for cloud or on-premise*
+*We have NO computations for Midterms*
 
 ## Storage
 - charged by:
