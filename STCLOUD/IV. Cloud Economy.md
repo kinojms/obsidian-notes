@@ -24,7 +24,7 @@
 - charged typically per GB
 
 # How do you pay for AWS?
-- rent, reserve, volume-based discount
+- rent, reserve, volume-based discount, time
 - pay for what you use
 	- rent / on-demand
 	- more demand than reserve
