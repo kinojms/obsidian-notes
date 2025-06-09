@@ -19,4 +19,7 @@
 	- storage type
 
 ## Data Transfer
-- outbound is 
+- outbound is aggregated and charged
+- inbound has no charge with some exceptions)
+- charged typically per GB
+![[Pasted image 20250609134539.png]]
