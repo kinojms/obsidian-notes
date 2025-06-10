@@ -21,4 +21,4 @@
 	- sometimes integrates
 	- sometimes separate circuit board
 		- in certain architecture, you might want to add additional NVMe's
-	- contains processor, microcode, private memory, 
+	- contains processor, microcode, private memory, etc.
