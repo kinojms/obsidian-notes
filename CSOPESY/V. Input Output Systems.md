@@ -13,4 +13,6 @@
 	- transmission
 	- human-interface
 - common concepts - signals from I/O devices interface with computer
-- 
+	- port - connection point for device (not related to the networking kind of port)
+	- bus - daisy chain or shared direct access
+		- it's like a highway from the connection point to your processor
