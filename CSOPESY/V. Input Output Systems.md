@@ -4,4 +4,6 @@
 	- various methods to control them
 	- performance management (polling rate)
 	- new types of devices frequent
-- ports, busses, device controllers connect to various devices—these devices aren't directly connected to the process
+- ports, busses, device controllers connect to various devices—these devices aren't directly connected to the processor, the **device drivers** are the ones connected to the processor
+- **Device Drivers** - encapsulate device details
+	- present uniform device-access interface to I/O subsystem
