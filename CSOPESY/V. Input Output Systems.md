@@ -1,4 +1,7 @@
-I/O Management is a major component of OS design and operation
-- important aspect of computer operation
-- I/O devices can vary
-- v
+- I/O Management is a major component of OS design and operation
+	- important aspect of computer operation
+	- I/O devices can vary
+	- various methods to control them
+	- performance management (polling rate)
+	- new types of devices frequent
+- ports, busses, device controllers connect to various devices—these devices aren't directly connected to the process
