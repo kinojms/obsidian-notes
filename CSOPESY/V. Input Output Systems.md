@@ -17,3 +17,8 @@
 	- bus - daisy chain or shared direct access
 		- it's like a highway from the connection point to your processor
 		- **bifurcation** - allows a single PCIe slot on a motherboard to be split into multiple smaller lane configurations
+- controller (host adapter) - electronics that operate port, bus, device
+	- sometimes integrates
+	- sometimes separate circuit board
+		- in certain architecture, you might want to add additional NVMe's
+	- contains processor, microcode, priva
