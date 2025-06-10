@@ -7,3 +7,10 @@
 - ports, busses, device controllers connect to various devices—these devices aren't directly connected to the processor, the **device drivers** are the ones connected to the processor
 - **Device Drivers** - encapsulate device details
 	- present uniform device-access interface to I/O subsystem
+
+- incredible variety
+	- storage
+	- transmission
+	- human-interface
+- common concepts - signals from I/O devices interface with computer
+- 
