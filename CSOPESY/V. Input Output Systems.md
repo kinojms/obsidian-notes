@@ -17,4 +17,3 @@
 	- bus - daisy chain or shared direct access
 		- it's like a highway from the connection point to your processor
 		- **bifurcation** - allows a single PCIe slot on a motherboard to be split into multiple smaller lane configurations
-		- back then 
