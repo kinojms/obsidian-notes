@@ -85,4 +85,13 @@
 ![[Pasted image 20250611082946.png]]
 
 - subtleties of devices handled by device drivers
-- broadly I/O devices can be 
+- broadly I/O devices can be grouped by the OS into
+	- block I/O
+	- character I/O
+	- memory-mapped file access
+	- network sockets
+- for direct manipulation of I/O device specific tasks
+# Clocks and Timers
+- provide current time, elapsed time, timer
+- normal resolution about 1/60 seconds
+- 
