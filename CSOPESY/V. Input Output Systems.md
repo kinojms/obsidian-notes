@@ -23,4 +23,7 @@
 		- in certain architecture, you might want to add additional NVMe's
 	- contains processor, microcode, private memory, etc.
 	- USB hubs are an example where it becomes a kind of multiplexer for external USB devices (multiple input - one output)
-- Fibre channel (FC) is compl
+- Fibre channel (FC) is a complex controller, usually separate circuit board (host-bus adapter, HBA plugging into bus)
+- I/O instructions control devices
+- devices usually registers where device driver places commands, addresses, and data to write, or read data from registers after command execution
+	- data-in register, data-out register, status register, 
