@@ -47,4 +47,7 @@
 # Interrupts
 - polling can happen in 3 instruction cycles
 	- read status, logical-and to extract status bit, branch if not zero
-- tells the 
+	- how to be more efficient if non-zero infrequently?
+- cpu interrupt-request line tri
+- tells the computer "wait, there's something going on!"
+- polling can 
