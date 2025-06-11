@@ -67,3 +67,5 @@
 - multi-CPU systems can process interrupts concurrently
 	- if OS designed to handle it
 	- used for time-sensitive processing, frequent, must be fast
+# Direct Memory Access
+- used to avoid programmed I/O (one byte at a time) for 
