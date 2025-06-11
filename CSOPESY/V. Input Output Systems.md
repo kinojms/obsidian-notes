@@ -22,3 +22,5 @@
 	- sometimes separate circuit board
 		- in certain architecture, you might want to add additional NVMe's
 	- contains processor, microcode, private memory, etc.
+	- USB hubs are an example where it becomes a kind of multiplexer for external USB devices (multiple input - one output)
+- Fibre channel (FC) is compl
