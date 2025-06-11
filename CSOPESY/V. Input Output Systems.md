@@ -17,6 +17,7 @@
 	- bus - daisy chain or shared direct access
 		- it's like a highway from the connection point to your processor
 		- **bifurcation** - allows a single PCIe slot on a motherboard to be split into multiple smaller lane configurations
+		- **controlled by the CPU**
 - controller (host adapter) - electronics that operate port, bus, device
 	- sometimes integrates
 	- sometimes separate circuit board
@@ -76,7 +77,7 @@
 	- read or write mode
 	- count of bytes
 	- writes location of command block to DMA controller
-	- bus mastering of DMA controller - grabs bus from CPU
+	- bus mastering of DMA controller - **grabs bus from CPU**
 	- cycle stealing from CPU but still much more efficient
-	- when done, interrupts to signal completion
+	- when done, **interrupts** to signal completion
 - version that is aware of virtual addresses can be even more efficient - DVMA
