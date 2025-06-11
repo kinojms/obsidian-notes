@@ -61,4 +61,9 @@
 - these are like try-catches where if an error happens, it catches that and returns that to the user
 ![[Pasted image 20250611081211.png]]
 - interrupt mechanisms also used for exceptions
-- terminate proces
+- terminate process, crash system due to hardware error
+- page fault executes when memory access error
+- system call executes via trap to trigger kernel to execute request
+- multi-CPU systems can process interrupts concurrently
+	- if OS designed to handle it
+	- used for time-sensitive processing, frequent, must be fast
