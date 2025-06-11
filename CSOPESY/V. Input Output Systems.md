@@ -26,4 +26,6 @@
 - Fibre channel (FC) is a complex controller, usually separate circuit board (host-bus adapter, HBA plugging into bus)
 - I/O instructions control devices
 - devices usually registers where device driver places commands, addresses, and data to write, or read data from registers after command execution
-	- data-in register, data-out register, status register, 
+	- data-in register, data-out register, status register, control register
+	- typically 1-4 bytes, or FIFO buffer
+	- your physical hardware should be addressable in the 
