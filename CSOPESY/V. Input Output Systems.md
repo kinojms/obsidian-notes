@@ -83,3 +83,6 @@
 - version that is aware of virtual addresses can be even more efficient - DVMA
 # Characteristics of I/O Devices
 ![[Pasted image 20250611082946.png]]
+
+- subtleties of devices handled by device drivers
+- broadly I/O devices can be 
