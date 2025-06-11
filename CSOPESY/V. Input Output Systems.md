@@ -71,4 +71,12 @@
 - used to avoid programmed I/O (one byte at a time) for large data movement
 - requires DMA controller
 - bypasses CPU to transfer data directly between I/O device and memory
-- OS 
+- OS writes DMA command block into memory
+	- source and destination addresses
+	- read or write mode
+	- count of bytes
+	- writes location of command block to DMA controller
+	- bus mastering of DMA controller - grabs bus from CPU
+	- cycle stealing from CPU but still much more efficient
+	- when done, interrupts to signal completion
+- version that is aware of virtual addre
