@@ -68,5 +68,7 @@
 	- if OS designed to handle it
 	- used for time-sensitive processing, frequent, must be fast
 # Direct Memory Access
-- used to avoid programmed I/O (one byte at a time) for large
-- 
+- used to avoid programmed I/O (one byte at a time) for large data movement
+- requires DMA controller
+- bypasses CPU to transfer data directly between I/O device and memory
+- OS 
