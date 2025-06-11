@@ -81,3 +81,4 @@
 	- cycle stealing from CPU but still much more efficient
 	- when done, **interrupts** to signal completion
 - version that is aware of virtual addresses can be even more efficient - DVMA
+# Characteristics of I
