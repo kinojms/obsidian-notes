@@ -28,4 +28,9 @@
 - devices usually registers where device driver places commands, addresses, and data to write, or read data from registers after command execution
 	- data-in register, data-out register, status register, control register
 	- typically 1-4 bytes, or FIFO buffer
-	- your physical hardware should be addressable in the 
+- *your physical hardware should be addressable in the software space*
+- devices have addresses, used by
+	- direct I/O instructions
+	- memory mapped I/O
+		- device data and command registers are mapped to processor address space
+		- 
