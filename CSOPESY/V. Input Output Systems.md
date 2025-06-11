@@ -79,4 +79,4 @@
 	- bus mastering of DMA controller - grabs bus from CPU
 	- cycle stealing from CPU but still much more efficient
 	- when done, interrupts to signal completion
-- version that is aware of virtual addre
+- version that is aware of virtual addresses can be even more efficient - DVMA
