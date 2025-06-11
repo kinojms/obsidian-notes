@@ -48,6 +48,12 @@
 - polling can happen in 3 instruction cycles
 	- read status, logical-and to extract status bit, branch if not zero
 	- how to be more efficient if non-zero infrequently?
-- cpu interrupt-request line tri
+- CPU interrupt-request line triggered by I/O device
+	- checking by processor after each instruction
+- interrupt handler receives interrupts
+	- maskable to ignore or delay some interrupts
+- interrupt vector to dispatch interrupt to correct handler
+	- context switch at start and end
+	- 
 - tells the computer "wait, there's something going on!"
 - polling can 
