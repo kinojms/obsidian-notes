@@ -54,6 +54,8 @@
 	- maskable to ignore or delay some interrupts
 - interrupt vector to dispatch interrupt to correct handler
 	- context switch at start and end
-	- 
+	- based on priority
+	- some nonmaskable
+	- interrupt chaining if more than one device at same interrupt number
 - tells the computer "wait, there's something going on!"
-- polling can 
+- these are like try-catches where if an error happens, it catches that and 
