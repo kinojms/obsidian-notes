@@ -58,4 +58,5 @@
 	- some nonmaskable
 	- interrupt chaining if more than one device at same interrupt number
 - tells the computer "wait, there's something going on!"
-- these are like try-catches where if an error happens, it catches that and 
+- these are like try-catches where if an error happens, it catches that and returns that to the user
+![[Pasted image 20250611081211.png]]
