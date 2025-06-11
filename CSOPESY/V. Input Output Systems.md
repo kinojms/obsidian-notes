@@ -42,4 +42,9 @@
 		- input latency is better
 		- but consumes more CPU cycles
 		- computer will be more busier polling for more input
-	- reads busy bit from status 
+	- reads busy bit from status register until 0
+	- host sets read or write bit and if write, copies data...
+# Interrupts
+- polling can happen in 3 instruction cycles
+	- read status, logical-and to extract status bit, branch if not zero
+- tells the 
