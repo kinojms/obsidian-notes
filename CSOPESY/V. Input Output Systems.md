@@ -94,4 +94,4 @@
 # Clocks and Timers
 - provide current time, elapsed time, timer
 - normal resolution about 1/60 seconds
-- 
+- some 
