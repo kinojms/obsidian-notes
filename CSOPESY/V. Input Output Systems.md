@@ -94,4 +94,6 @@
 # Clocks and Timers
 - provide current time, elapsed time, timer
 - normal resolution about 1/60 seconds
-- some 
+- some systems provide higher-resolution timers
+- programmable interval timer used for timings, periodic interrupts
+- ioctl() (on UNIX) covers odd aspects o
