@@ -38,4 +38,8 @@
 - for each byte of I/O
 	- a form of getting input from a particular buffer
 	- like asking for new info every n seconds
-	- higher polling rate 
+	- higher polling rate = fresher data
+		- input latency is better
+		- but consumes more CPU cycles
+		- computer will be more busier polling for more input
+	- reads busy bit from status 
