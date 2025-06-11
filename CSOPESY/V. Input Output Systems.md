@@ -7,7 +7,6 @@
 - ports, busses, device controllers connect to various devices—these devices aren't directly connected to the processor, the **device drivers** are the ones connected to the processor
 - **Device Drivers** - encapsulate device details
 	- present uniform device-access interface to I/O subsystem
-
 - incredible variety
 	- storage
 	- transmission
@@ -96,4 +95,4 @@
 - normal resolution about 1/60 seconds
 - some systems provide higher-resolution timers
 - programmable interval timer used for timings, periodic interrupts
-- ioctl() (on UNIX) covers odd aspects o
+- ioctl() (on UNIX) covers odd aspects of I/O such as clocks and timers
