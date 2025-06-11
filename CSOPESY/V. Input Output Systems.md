@@ -33,4 +33,9 @@
 	- direct I/O instructions
 	- memory mapped I/O
 		- device data and command registers are mapped to processor address space
-		- 
+		- especially for large address spaces
+# Polling
+- for each byte of I/O
+	- a form of getting input from a particular buffer
+	- like asking for new info every n seconds
+	- higher polling rate 
