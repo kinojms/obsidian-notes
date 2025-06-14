@@ -152,3 +152,4 @@ BT: 20, 0, 3
 
 Situation:
 RR scheduling but at time 10, switch to FCFS algorithm
+- when switching to FCFS, we retain the current process being executed at the time of the switch cause 
