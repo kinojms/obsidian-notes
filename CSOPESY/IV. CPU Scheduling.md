@@ -144,6 +144,9 @@ BT: 20, 0, 3
 	- scheduling algorithms for each queue
 	- method used to determine which queue a process will enter when that process needs service
 	- scheduling among the queues
-- has efficiency and e
+- similar to efficiency and performance cores
+	- efficiency - slower but consumes less power
+	- performance - very fast but consumes more power
+		- in windows it uses a Earli
 
 
