@@ -138,5 +138,10 @@ BT: 20, 0, 3
 - has the bad effect of pushing out processes with lower priority
 
 ### Multilevel Queue
+- the ready queue consists of multiple levels of queues
+- defined by the following parameters:
+	- number of queues
+	- scheduling algorithms for each queue
+	- method used to determine 
 
 
