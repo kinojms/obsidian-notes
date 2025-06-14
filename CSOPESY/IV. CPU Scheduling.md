@@ -130,7 +130,6 @@ BT: 20, 3, 3
 The order is P3, P1, P2
 BT: 20, 0, 3
 
-4th Loop: 
-
+**NOTE**: It's possible for the CPU to be *idle*
 
 
