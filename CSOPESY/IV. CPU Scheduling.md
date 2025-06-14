@@ -152,4 +152,4 @@ BT: 20, 0, 3
 
 Situation:
 RR scheduling but at time 10, switch to FCFS algorithm
-- when switching to FCFS, we retain the current process being executed at the time of the switch cause 
+- when switching to FCFS, we retain the current process being executed at the time of the switch cause if a process is already on the CPU core, prioritize that process instead
