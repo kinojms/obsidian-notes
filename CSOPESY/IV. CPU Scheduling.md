@@ -142,6 +142,8 @@ BT: 20, 0, 3
 - defined by the following parameters:
 	- number of queues
 	- scheduling algorithms for each queue
-	- method used to determine 
+	- method used to determine which queue a process will enter when that process needs service
+	- scheduling among the queues
+- has efficiency and e
 
 
