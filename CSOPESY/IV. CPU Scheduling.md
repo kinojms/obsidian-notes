@@ -134,6 +134,7 @@ BT: 20, 0, 3
 
 ## Priority Scheduling w/ Round Robin
 - run the process with the highest priority. Processes with the same priority run round-robin
-- for processes with the same priority level, 
+- for processes with the same priority level, we sort them by process id (lower id = higher priority; ascending order basically)
+- 
 
 
