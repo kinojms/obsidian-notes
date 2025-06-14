@@ -130,6 +130,10 @@ BT: 20, 3, 3
 The order is P3, P1, P2
 BT: 20, 0, 3
 
-**NOTE**: It's possible for the CPU to be *idle*
+**NOTE**: It's possible for the CPU to be *idle* for a long time
+
+## Priority Scheduling w/ Round Robin
+- run the process with the highest priority. Processes with the same priority run round-robin
+- for processes with the same priority level, 
 
 
