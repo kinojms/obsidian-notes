@@ -147,6 +147,8 @@ BT: 20, 0, 3
 - similar to efficiency and performance cores
 	- efficiency - slower but consumes less power
 	- performance - very fast but consumes more power
-		- in windows it uses a Earli
+		- in windows it uses a Earliest Deadline First Scheduling algo
+			- a variation of RR but you increase the time quantum whenever the application is in full screen or on the foreground
+	- 
 
 
