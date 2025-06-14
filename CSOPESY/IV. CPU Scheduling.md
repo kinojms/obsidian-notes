@@ -150,4 +150,5 @@ BT: 20, 0, 3
 		- in windows it uses a Earliest Deadline First Scheduling algo
 			- a variation of RR but you increase the time quantum whenever the application is in full screen or on the foreground
 
-
+Situation:
+RR scheduling but at time 10, switch to FCFS algorithm
