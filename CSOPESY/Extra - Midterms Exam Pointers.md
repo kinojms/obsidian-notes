@@ -1,7 +1,7 @@
 # Introduction to Operating Systems (Chapter 1 - 2)
 [Pages 4 - 101] 
 
-## What is an OS? 
+## What is an OS?
 ## An overview of a command line-based operating system 
 ## Operating systems structure 
 
@@ -23,6 +23,6 @@
 ## Process lists and CPU scheduling 
 ## Processes and threads
 
-# Additional 
+# Additional TTL (things to learn)
 Your homeworks and MOs. 
 Review also Doc Neils videos, very very useful for the coding exercise part.
