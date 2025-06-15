@@ -15,4 +15,8 @@ Keyboard polling and interrupts
 Concepts of I/O and CPU cycles 
 Supporting multiple consoles 
 
-Processes and Scheduling (Chapter 5)[Pages 200 - 250] Representation of processes and resources Designing CPU instructions Process lists and CPU scheduling Processes and threads
+Processes and Scheduling (Chapter 5)
+[Pages 200 - 250] 
+
+Representation of processes and resources 
+Designing CPU instructions Process lists and CPU scheduling Processes and threads
