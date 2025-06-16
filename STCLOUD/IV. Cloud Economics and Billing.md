@@ -107,4 +107,8 @@
 - use the calculator to:
 	- estimate monthly costs
 	- identify opportunities to reduce monthly costs
-	- model your solutions before building the
+	- model your solutions before building them
+	- explore price points and calculations behind your estimate
+	- find the available instance types and contract terms that meet your needs
+	- name your estimate and create and name groups of services
+- easier compared to manually computing traditional costs
