@@ -72,5 +72,11 @@ Interrupts are used for many other purposes and are a key part of how OS and our
 For example, when the CPU is interrupted, it stops what it's currently doing and immediately transfers execution to a fixed location. 
 - This fixed location usually contains the starting address where the service routine for the interrupt is located.
 
-The interrupt must transfer control to the appropriate interrupt service routine by invoking a generic routine to examine the interrupt information
+The interrupt must transfer control to the appropriate interrupt service routine by: Invoking a generic routine to examine the interrupt's info -> The routine would call the interrupt-specific handler
+
+#### Implementation
+
+The basic interrupt mechanism works as follows:
+1. Interrupt-Request line
+-
 
