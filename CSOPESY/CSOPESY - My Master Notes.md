@@ -157,4 +157,11 @@ int main() {
 				- create file, delete file
 				- open, close
 				- read, write, reposition
-				- get file attr
+				- get file attributes, set file attributes
+			- Device management
+			- Information maintenance
+			- Communications
+			- Protection
+			- *fml tinamad nako magtype*
+		- How its developed in our OS Emulator:
+		- 
