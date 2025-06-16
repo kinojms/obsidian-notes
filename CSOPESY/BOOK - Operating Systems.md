@@ -78,5 +78,7 @@ The interrupt must transfer control to the appropriate interrupt service routine
 
 The basic interrupt mechanism works as follows:
 1. Interrupt-Request line
--
+	- The CPU hardware has this wire that the CPU senses after executing every instruction
+2. Interrupt-Handler Routine
+	- When the CPU detects that a controller has sent a signal on the IRL, it reads the number and jumps to this routine
 
