@@ -93,3 +93,7 @@ In a modern OS, though, we need a more sophisticated interrupt-handling features
 3. Multilevel interrupts, so that the OS can distinguish between high and low priority interrupts and can respond with the appropriate degree of urgency
 These features are provided by the **CPU** and the **Interrupt-Controller Hardware**
 
+40pts MCO/analysis 
+30pts Coding 
+40pts scheduling 
+10 point extra for bonus
