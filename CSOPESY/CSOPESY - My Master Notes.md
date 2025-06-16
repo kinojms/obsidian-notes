@@ -41,4 +41,5 @@ Has three main components:
 	- Main Program to Symbol Table
 		- usually defined during compile time. Hence, they have a fixed size
 	- Heap and Stack
-		- the sizes of both have limits, but are generally consumed during run-time. Hence, the heal or the stack may not use the allocated space completel
+		- the sizes of both have limits, but are generally consumed during run-time. Hence, the heal or the stack may not use the allocated space completely
+	- 
