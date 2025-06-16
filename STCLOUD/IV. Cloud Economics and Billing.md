@@ -91,4 +91,7 @@
 - they are very different, but COST can be a common factor to consider
 ![[Pasted image 20250616131940.png]]
 
-
+## Total Cost of Ownership (TCO)
+- the financial estimate to help identify direct and indirect costs of a system
+- Why use TCO?
+	- to compare the costs of running an entire infrastructure environment or specific workload on-premises vs. on 
