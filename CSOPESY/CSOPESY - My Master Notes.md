@@ -62,3 +62,7 @@ Has three main components:
 
 # OS Emulator
 
+## Typical Sequence of how an OS is loaded & run
+1. Bootstrap:
+	- perform low-level initialization (hardware setup, memory initialization, etc.)
+	- load the ker)
