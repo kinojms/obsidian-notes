@@ -67,3 +67,7 @@ This is accomplished via an **interrupt**.
 #### Overview on Interrupts
 Hardware may trigger an interrupt at any time by sending a signal to the CPU, usually via system bus. 
 
+Interrupts are used for many other purposes and are a key part of how OS and our hardware interact.
+
+For example, when the CPU is interrupted, it stops what it's currently doing and immediately tran
+
