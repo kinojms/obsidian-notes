@@ -215,8 +215,12 @@ Think of the library as the middleman that can recognize certain code names or c
 - they also need to create and delete them by name, search for a given file, and list file info
 - some OS include permissions management
 - in our OS emulator, directory systems will be emulated where N editable files are "combined" together into a single `.csopesy` file *(again, wtf why do we have our own file type?)*
-	- this file represents your disk storage. multiple .csopesy files
-### 
+	- this file represents your disk storage. multiple `.csopesy` files are like C:/ D:/ E:/ 
+### Communication
+- processes may exchange info with other processes
+- ex: active programs with running background services
+	- Facebook appliation (foreground)
+	- 
 
 
 
