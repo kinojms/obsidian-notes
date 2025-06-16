@@ -69,5 +69,8 @@ Hardware may trigger an interrupt at any time by sending a signal to the CPU, us
 
 Interrupts are used for many other purposes and are a key part of how OS and our hardware interact.
 
-For example, when the CPU is interrupted, it stops what it's currently doing and immediately tran
+For example, when the CPU is interrupted, it stops what it's currently doing and immediately transfers execution to a fixed location. 
+- This fixed location usually contains the starting address where the service routine for the interrupt is located.
+
+The interrupt mu 
 
