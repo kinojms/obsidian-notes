@@ -34,9 +34,9 @@ Has three main components:
 	- *Main Program* - points to the main function (10k)
 	- *Subroutine* - contains all functions declared in code (20k)
 	- *Libraries* - external functions or dependencies required (10k, 10k)
-	- Symbol table - holds variables (30k)
-	- Stack - holds temporary variables for function calls. Also stores the return address of a given function call (100k)
-	- Heap - memory for dynamically allocated objects (100k)
+	- *Symbol table* - holds variables (30k)
+	- *Stack* - holds temporary variables for function calls. Also stores the return address of a given function call (100k)
+	- *Heap* - memory for dynamically allocated objects (100k)
 
 	- Main Program to Symbol Table
 		- usually defined during compile time. Hence, they have a fixed size
@@ -47,3 +47,7 @@ Has three main components:
 	
 - the OS pre-allocates memory on each application
 - each application has a certain boundary on their components and overstepping these boundaries throw errors
+
+### OS reinforcing Security
+- each process has its own allocation and cannot be accessed by any other process
+- if processes
