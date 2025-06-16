@@ -1,12 +1,12 @@
 # Intro to Operating Systems
 
 ## Computer System
-### Has three main components:
+Has three main components:
 - Hardware - physical components and drivers
 - OS - coordinates use of hardware with user applications
 - Applications - typical apps used by a user
 
-### Primary Tasks of an OS:
+## Primary Tasks of an OS:
 - serve as the bridge or API to hardware resources
 - Resource Allocator - CPU and Memory allocation to an application. Decides how to share resources among other user programs
 - Control Program - **controls behavior** of user programs to **avoid** **improper** use of computer resources (CPU and memory hoggers, programs with infinite loops, etc.)
@@ -27,3 +27,5 @@
 - each program has its own set of instructions
 - each program and its corresponding line of instruction can be assigned to be executed on a logical processor
 	- this heavily depends on the OS scheduling mechanism and CPU hardware design
+### OS as a Control Program
+- the OS ensures that all applications
