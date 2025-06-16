@@ -28,12 +28,12 @@ Has three main components:
 - each program and its corresponding line of instruction can be assigned to be executed on a logical processor
 	- this heavily depends on the OS scheduling mechanism and CPU hardware design
 ### OS as a Control Program
-- the OS ensures that all applications receive a fair number of resources
-- each program has components where allocations are already pre-defined
+- the OS ensures that **all applications** receive a **fair number of resources**
+- each program has **components** where allocations are already **pre-defined**
 - Components of a Program:
-	- Main Program - points to the main function (10k)
-	- Subroutine - contains all functions declared in code (20k)
-	- Libraries - external functions or dependencies required (10k, 10k)
+	- *Main Program* - points to the main function (10k)
+	- *Subroutine* - contains all functions declared in code (20k)
+	- *Libraries* - external functions or dependencies required (10k, 10k)
 	- Symbol table - holds variables (30k)
 	- Stack - holds temporary variables for function calls. Also stores the return address of a given function call (100k)
 	- Heap - memory for dynamically allocated objects (100k)
@@ -45,4 +45,5 @@ Has three main components:
 	- Stack Overflow Scenario: A faulty recursive function causes the stack to exceed its limit which returns the SO error
 	- OutOfMemory Error: Excessive allocation of objects (continuously loading images) or unoptimized use of dynamic storages will exceed allocated heap space
 	
-- the OS pre-allocates memory on each applica
+- the OS pre-allocates memory on each application
+- each application has a certain boundary on their components and overstepping these boundaries throw errors
