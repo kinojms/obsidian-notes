@@ -37,3 +37,5 @@ Has three main components:
 	- Symbol table - holds variables
 	- Stack - holds temporary variables for function calls. Also stores the return address of a given function call
 	- Heap - memory for dynamically allocated objects
+
+	- Main Program to Symb
