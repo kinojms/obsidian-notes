@@ -181,5 +181,5 @@ The figure above shows how a typical compiled C program is executed in a commerc
 2. C library sees this and sends the appropriate message to the OS (sends `write()` syscall)
 3. C library then takes the returned value by the `write()` syscall and passes it back to the user program
 
-Think of the library as the middleman that can recognize certain commands or function calls, then it calls their supplier, tells them a code call in the OS, 
+Think of the library as the middleman that can recognize certain code names or commands. When they hear a code from a potential buyer, they calls their supplier, tells them a code for a certain type of product, then delivers this back to the buyer. 
 
