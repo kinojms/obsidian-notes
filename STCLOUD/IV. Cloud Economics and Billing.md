@@ -58,4 +58,10 @@
 - volume based discounts
 - realize volume-based discounts:
 	- savings as usage increases
-	- tiered prici
+	- tiered pricing for services like Amazon Simple Storage Service 
+- As AWS grows:
+	- services become cheaper over time
+	- AWS focuses on lowering cost of doing business
+	- this practice results in AWS passing savings from economies of scale to you
+## Custom Pricing
+- special pricing
