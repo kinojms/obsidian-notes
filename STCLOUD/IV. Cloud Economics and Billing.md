@@ -118,4 +118,11 @@
 - Hard Benefits:
 	- reduced spending 
 	- reductions in hardware and software purchases (capex)
-	- reducti
+	- reductions in oepx, backup, and disaster recovery
+	- reduction in operations personnel
+	- not more of reducing cost, but rather where you're putting you money (redirecting money to other places)
+	- you don't necessarily reduce spending but instead you:
+		- outsource
+		- rent/subscribe ()
+- Soft Benefits:
+	- reuse of ser
