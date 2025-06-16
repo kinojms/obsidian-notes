@@ -31,10 +31,10 @@ Has three main components:
 - the OS ensures that all applications receive a fair number of resources
 - each program has components where allocations are already pre-defined
 - Components of a Program:
-	- Main Program - points to the main function
-	- Subroutine - contains all functions declared in code
-	- Libraries - external functions or dependencies required
-	- Symbol table - holds variables
+	- Main Program - points to the main function (10k)
+	- Subroutine - contains all functions declared in code (10k)
+	- Libraries - external functions or dependencies required (10k)
+	- Symbol table - holds variables (30k)
 	- Stack - holds temporary variables for function calls. Also stores the return address of a given function call
 	- Heap - memory for dynamically allocated objects
 
@@ -42,4 +42,4 @@ Has three main components:
 		- usually defined during compile time. Hence, they have a fixed size
 	- Heap and Stack
 		- the sizes of both have limits, but are generally consumed during run-time. Hence, the heal or the stack may not use the allocated space completely
-	- 
+	- Stack Overflow Scenario: A faulty recursive function causes the stack to exceed its limit
