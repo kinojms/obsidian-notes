@@ -127,4 +127,8 @@ int main() {
 # Operating System Structures
 
 ## OS Services
-- 
+
+![[Pasted image 20250616205835.png]]
+
+### User Interface
+- refers to the display interface and reading of 
