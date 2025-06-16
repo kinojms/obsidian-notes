@@ -6,7 +6,7 @@ Has three main components:
 - OS - coordinates use of hardware with user applications
 - Applications - typical apps used by a user
 
-OS Layers: layer -> framework -> sys services -> libraries -> kernel -> hardware
+OS Layers: Users & System Programs -> User Interface -> System Calls -> System Services (File systems, I/O operations, Resource Allocation, etc.) -> Operating System (OS)
 ## Primary Tasks of an OS:
 - serve as the bridge or API to hardware resources
 - *Resource Allocator* - CPU and Memory allocation to an application. Decides how to share resources among other user programs
