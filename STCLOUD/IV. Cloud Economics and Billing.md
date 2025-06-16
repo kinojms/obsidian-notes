@@ -174,4 +174,5 @@
 	- **Enterprise Support** 
 		- customers that run business and mission-critical workload
 		- most expensive option
-		- 
+
+Note: If you want support to help you with something, you need to pay for it usually. Just because you rent 
