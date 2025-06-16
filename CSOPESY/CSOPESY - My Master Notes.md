@@ -50,4 +50,9 @@ Has three main components:
 
 ### OS reinforcing Security
 - each process has its own allocation and cannot be accessed by any other process
-- if processes
+- if processes need to share information, each process must have instructions on writing/reading a shared file
+- OS typically denies any malicious memory accesses
+	- but some tools exists to circumvent this (Cheat Engines)
+
+### OS for improvisation
+- in memory management, all OS pe
