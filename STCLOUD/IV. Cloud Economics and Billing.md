@@ -123,6 +123,11 @@
 	- not more of reducing cost, but rather where you're putting you money (redirecting money to other places)
 	- you don't necessarily reduce spending but instead you:
 		- outsource
-		- rent/subscribe ()
+		- rent/subscribe (opex)
 - Soft Benefits:
-	- reuse of ser
+	- reuse of service and applications that enable you to define (and redefine solutions) by using the same cloud service
+	- increased developer productivity
+		- focus on PaaS/SaaS or Infra as SW
+	- improved customer satisfaction
+		- latency & ease of use
+	- agile business processes that can quickly respond to new and emerging opportuniti
