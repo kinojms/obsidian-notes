@@ -36,6 +36,8 @@ This representation is what is actually placed in a queue.
 
 This concept is applicable to single processor and multicore systems. The only difference is that multicore systems can operate with multiple contexts at the same time due to each core having its own execution pipeline. 
 
+The OS is also a Process by definition—one of the higher priority ones.
+
 # Process vs Program
 ## Program
 - this is a sequence of instructions
