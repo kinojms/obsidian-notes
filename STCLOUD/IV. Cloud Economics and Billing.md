@@ -2,7 +2,8 @@
 ## Compute
 - CPU, GPU, etc.
 - charged by:
-	- charged per hour/second*
+	- charged **per hour/second**
+		- hour - corresponds to duration
 	- varies by instance type
 	- by location
 		- you can choose the region
