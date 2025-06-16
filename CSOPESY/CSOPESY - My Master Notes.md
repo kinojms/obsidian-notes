@@ -78,3 +78,8 @@ Has three main components:
 	- Launch system daemons and background processes 
 	- Example: Start file system service and network service 
 	- Observation: These are processes that are persistent in the OS – always alive/periodically invoking functions
+4. Enter main loop:
+	- continuously handle interrupts and system calls
+	- dispatch user processes and manage their execution
+	- handle user input and manage I/O operations
+	- ex: 
