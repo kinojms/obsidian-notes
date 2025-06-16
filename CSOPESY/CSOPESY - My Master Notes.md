@@ -25,3 +25,5 @@
 - programs are allocated
 - memory address is decided by the OS
 - each program has its own set of instructions
+- each program and its corresponding line of instruction can be assigned to be executed on a logical processor
+	- this heavily depends on the OS scheduling mechanism and CPU hardware design
