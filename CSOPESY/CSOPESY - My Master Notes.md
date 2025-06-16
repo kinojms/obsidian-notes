@@ -28,4 +28,9 @@ Has three main components:
 - each program and its corresponding line of instruction can be assigned to be executed on a logical processor
 	- this heavily depends on the OS scheduling mechanism and CPU hardware design
 ### OS as a Control Program
-- the OS ensures that all applications
+- the OS ensures that all applications receive a fair number of resources
+- each program has components where allocations are already pre-defined
+- Components of a Program:
+	- Main Program - points to the main function
+	- Subroutine - contains all functions declared in code
+	- Libraries - external functions or dependencies r
