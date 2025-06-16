@@ -68,4 +68,10 @@
 - meet varying needs through custom pricing
 - available for high-volume projects with unique requirements
 ## AWS Free Tier
-- free use or ****
+- free use or **credits** for some services
+
+
+*Note: Cloud is not perfect. There are certain use cases where cloud is great and where it's not. You have to consider what's beneficial for your company. (Cost-Benefit Analysis)*
+
+## Services with no charge
+- no cost for configuration/orchestration
