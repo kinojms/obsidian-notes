@@ -38,6 +38,7 @@
 	- scaling in and out = elasticity
 - pay less when you reserve
 	- you are committing to a **long-term usage** of the cloud
+	- **lower cost** at the expense of **guessing capacity**
 	- 1 or 3 yr commitment
 	- *Note: If you reserve, you lose scaling on-demand advantage
 	- is cheaper than on-demand
@@ -51,6 +52,6 @@
 			- seen as a down payment with monthly cost
 			- capex + opex
 		- No Upfront Payments Reserved Instance (NURI) -> Smaller discount
-			- rent but w/ committment
+			- rent but w/ commitment
 			- high opex, low capex
 - pay less when you use more and as AWS grows
