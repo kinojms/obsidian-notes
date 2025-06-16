@@ -122,7 +122,7 @@ int main() {
 	- clean up allocated resources and release memory
 	- halt or reboot the system
 	- ex: clean up resources and prepare for shutdown
-	- End of day 
+	- SHEIN factory dismissal time—throws out useless workers, confiscate items, 
 
 # Operating System Structures
 
