@@ -8,10 +8,10 @@ Has three main components:
 
 ## Primary Tasks of an OS:
 - serve as the bridge or API to hardware resources
-- Resource Allocator - CPU and Memory allocation to an application. Decides how to share resources among other user programs
-- Control Program - **controls behavior** of user programs to **avoid** **improper** use of computer resources (CPU and memory hoggers, programs with infinite loops, etc.)
-- Security - helps protect the application's data from one another (prevents register mismatch, etc.)
-- Improvisation - finds a way to improvise when hardware resources are scarce. Provides an illusion of dedicated machine with infinite memory and processors
+- *Resource Allocator* - CPU and Memory allocation to an application. Decides how to share resources among other user programs
+- *Control Program* - **controls behavior** of user programs to **avoid** **improper** use of computer resources (CPU and memory hoggers, programs with infinite loops, etc.)
+- *Security* - helps protect the application's data from one another (prevents register mismatch, etc.)
+- *Improvisation* - finds a way to improvise when hardware resources are scarce. Provides an illusion of dedicated machine with infinite memory and processors
 
 ### OS as an API to hardware resources
 - How do we display something on-screen? 
@@ -38,9 +38,9 @@ Has three main components:
 	- *Stack* - holds temporary variables for function calls. Also stores the return address of a given function call (100k)
 	- *Heap* - memory for dynamically allocated objects (100k)
 
-	- Main Program to Symbol Table
+	- **Main Program to Symbol Table**
 		- usually defined during compile time. Hence, they have a fixed size
-	- Heap and Stack
+	- **Heap and Stack**
 		- the sizes of both have limits, but are generally consumed during run-time. Hence, the heal or the stack may not use the allocated space completely
 	- Stack Overflow Scenario: A faulty recursive function causes the stack to exceed its limit which returns the SO error
 	- OutOfMemory Error: Excessive allocation of objects (continuously loading images) or unoptimized use of dynamic storages will exceed allocated heap space
