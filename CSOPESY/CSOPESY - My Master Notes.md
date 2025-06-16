@@ -136,5 +136,8 @@ int main() {
 
 - since we will be doing a command-line-interface style emulator, essential features are:
 	- **Command Interpreter**
-		- most OS treat the command interpreter as a special program that is running when a process is initiated or when a user first logs on (on interactive systems)
-	- **Virtual Machines** (via Cloud) merely provides a Linux **shell** with Python and ML libraries **pre-installed**
+		- most OS treat the command interpreter as a **special program that is running when a process is initiated** or when a user first logs on (on interactive systems)
+		- **Virtual Machines** (via Cloud) merely provides a Linux **shell** with Python and ML libraries **pre-installed**
+		- developing a command interpreter requires processing of commands received from keyboard input
+			- has a list of recognizable commands
+			- tokenization of commands
