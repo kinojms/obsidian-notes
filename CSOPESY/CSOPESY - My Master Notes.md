@@ -144,4 +144,5 @@ int main() {
 	- System Calls
 		- are libraries or interfaces developed that exposes services in an OS (ex: print functions, read/write of files, etc.)
 		- also refers to system APIs
-			- 
+			- several Programming Languages have system APIs that are automatically included (print,/println class/object management, etc.)
+	- 
