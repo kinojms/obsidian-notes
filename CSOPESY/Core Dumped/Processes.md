@@ -7,6 +7,15 @@ This is how OS guaranteed Security and Correctness when sharing the CPU among mu
 When we switch Processes, we are replacing the entire context in which the OS operates
 
 Process Control Block - a special structure that the Operating System uses to keep track of every single process
-- has a Unique ID
-- 
+- a process has the following:
+	- Unique ID
+	- multiple states:
+		- New
+		- Running
+		- Ready
+		- Waiting
+		- Terminated
+	- Program Counter 
+	- List of General Purpose Registers
+	- Instruction Register
 
