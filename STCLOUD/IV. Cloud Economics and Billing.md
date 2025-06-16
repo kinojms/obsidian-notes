@@ -101,4 +101,4 @@
 ### TCO Considerations
 ![[Pasted image 20250616132311.png]]
 
-- 
+- on premise considers HW, SW, Facilities, and Labor as considerations for TCO
