@@ -135,8 +135,16 @@
 	- increase in global reach
 - *Note: It's all based on use-cases where it might be more beneficial for you to go for cloud* 
 
-### AWS Billing Dashboard
+### Useful Vis
+#### AWS Billing Dashboard
 - visualizing cost can help better understand where your money goes & how to reduce spending
 
-### Tools
-- there are many tools to help you understand yo
+#### Tools
+- there are many tools to help you understand your spending
+- AWS Budgets
+- AWS Cost and Usage Report
+- AWS Cost Explorer
+
+#### Monthly Bills
+- simplified billing list as a table
+- shows you how much you're gonna pay this month
