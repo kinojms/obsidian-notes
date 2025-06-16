@@ -88,3 +88,19 @@ Has three main components:
 	- clean up allocated resources and release memory
 	- halt or reboot the system
 	- ex: clean up resources and prepare for shutdown
+
+```
+#include <iostream>
+
+void bootstrap();
+void initializeKernel();
+void startSystemServices();
+void enterMainLoop();
+void shutdownAndCleanup();
+
+int main() {
+
+	bootstrap*
+
+}
+```
