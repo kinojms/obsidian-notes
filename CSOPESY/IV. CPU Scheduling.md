@@ -34,7 +34,7 @@ Ryzen Master can boost performance for AMD-based processors
 	3. waiting to ready
 	4. terminates
 
-## Preemtive and Nonpreemtive Scheduling
+## Preemptive and Nonpreemptive Scheduling
 - inutusan ng nanay - preemptive (can be interrupted)
 - taking an exam - nonpreemtive (cant stop once started)
 
