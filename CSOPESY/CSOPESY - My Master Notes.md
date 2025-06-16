@@ -204,7 +204,9 @@ Think of the library as the middleman that can recognize certain code names or c
 ### Program Execution
 - general idea is that to run a program, it must be loaded into memory, and a register dictates the flow of instructions to be executed
 	- our representation of a program/process only consists of placeholder commands
-	- so we'll
+	- so we'll devise a command flow (sequence of execution), process scheduling, resource and memory allocation
+### I/O Operations
+- a running program may require I/O, which may involve a file or an I/O device
 
 
 
