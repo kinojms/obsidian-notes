@@ -106,21 +106,21 @@ int main() {
 	- ex: initialize process table and memory manager (memory allocation algo, demand paging)
 	- **Supervisor sets up the equipment and production line**
 3. *Start system services:*
-	- start essential system services (file system, networking, etc.)
-	- Launch system daemons and background processes 
+	- start essential **system services** (file system, networking, etc.)
+	- Launch **system daemons** and **background processes** 
 	- Example: Start file system service and network service 
-	- Observation: These are processes that are persistent in the OS – always alive/periodically invoking functions
+	- Observation: These are processes that are **persistent** in the OS – **always alive**/periodically invoking functions
 	- **Supervisor wakes up the child laborers with their own respective tasks**
 4. *Enter main loop:*
-	- continuously handle interrupts and system calls
-	- dispatch user processes and manage their execution
-	- handle user input and manage I/O operations
+	- **continuously** handle interrupts and system calls
+	- dispatch user processes and **manage their execution**
+	- **handle user input** and manage I/O operations
 	- ex: enter an infinite loop to handle system events
 	- **Typical SHEIN factory working day** 
 5. *Shutdown and cleanup:*
-	- gracefully terminate running processes and services
-	- clean up allocated resources and release memory
-	- halt or reboot the system
+	- gracefully **terminate** running processes and services
+	- **clean up** allocated resources and release memory
+	- **halt or reboot** the system
 	- ex: clean up resources and prepare for shutdown
 	- **SHEIN factory dismissal time—terminates child laborers / puts them to sleep for the day, shuts down the assembly/production line, then eventually the factory**
 
