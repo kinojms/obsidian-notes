@@ -112,3 +112,10 @@
 	- find the available instance types and contract terms that meet your needs
 	- name your estimate and create and name groups of services
 - easier compared to manually computing traditional costs
+
+### Additional Benefit Considerations
+- consider if it is beneficial to your business and technology needs
+- Hard Benefits:
+	- reduced spending 
+	- reductions in hardware and software purchases (capex)
+	- reducti
