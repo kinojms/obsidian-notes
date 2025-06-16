@@ -214,7 +214,9 @@ Think of the library as the middleman that can recognize certain code names or c
 - programs would often need access to certain files and directories
 - they also need to create and delete them by name, search for a given file, and list file info
 - some OS include permissions management
-- in our OS emulator, directory systems will be emulated where N editable files are "combined" together into a s
+- in our OS emulator, directory systems will be emulated where N editable files are "combined" together into a single `.csopesy` file *(again, wtf why do we have our own file type?)*
+	- this file represents your disk storage. multiple .csopesy files
+### 
 
 
 
