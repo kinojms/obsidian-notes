@@ -95,34 +95,34 @@ int main() {
 ```
 
 1. *Bootstrap:*
-	- perform low-level initialization (hardware setup, memory initialization, etc.)
-	- load the kernel into memory and start executing it
+	- perform **low-level initialization** (hardware setup, memory initialization, etc.)
+	- **load the kernel** into memory and start executing it
 	- ex: Perform hardware initialization
-	- Chinese Supervisor wakes up and starts the factory
+	- **Chinese Supervisor wakes up and starts the factory**
 2. *Kernel initialization:*
-	- initialize data structs (process table, file system, etc.)
-	- set up interrupt handlers and device drivers
-	- initialize memory management and scheduling algorithms
+	- **initialize data structs** (process table, file system, etc.)
+	- set up **interrupt handlers** and **device drivers**
+	- initialize **memory management** and **scheduling algorithms**
 	- ex: initialize process table and memory manager (memory allocation algo, demand paging)
-	- Supervisor sets up the equipment and production line
+	- **Supervisor sets up the equipment and production line**
 3. *Start system services:*
 	- start essential system services (file system, networking, etc.)
 	- Launch system daemons and background processes 
 	- Example: Start file system service and network service 
 	- Observation: These are processes that are persistent in the OS – always alive/periodically invoking functions
-	- Supervisor wakes up the child laborers with their own respective tasks
+	- **Supervisor wakes up the child laborers with their own respective tasks**
 4. *Enter main loop:*
 	- continuously handle interrupts and system calls
 	- dispatch user processes and manage their execution
 	- handle user input and manage I/O operations
 	- ex: enter an infinite loop to handle system events
-	- Typical SHEIN factory working day 
+	- **Typical SHEIN factory working day** 
 5. *Shutdown and cleanup:*
 	- gracefully terminate running processes and services
 	- clean up allocated resources and release memory
 	- halt or reboot the system
 	- ex: clean up resources and prepare for shutdown
-	- SHEIN factory dismissal time—terminates child laborers / puts them to sleep for the day, shuts down the assembly/production line, then eventually the factory
+	- **SHEIN factory dismissal time—terminates child laborers / puts them to sleep for the day, shuts down the assembly/production line, then eventually the factory**
 
 # Operating System Structures
 
