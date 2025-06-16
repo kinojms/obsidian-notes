@@ -100,7 +100,18 @@ void shutdownAndCleanup();
 
 int main() {
 
-	bootstrap*
+	// Step 1: Boostrapping
+	bootstrap();
+
+	// Step 2: Init Kernel
+	initializeKernel();
+
+	// Start System S
+	startSystemServices();
+
+	enterMainLoop();
+
+	shutdownAndCleanup();
 
 }
 ```
