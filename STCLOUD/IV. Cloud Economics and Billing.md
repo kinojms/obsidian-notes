@@ -30,10 +30,12 @@
 # How do you pay for AWS?
 - rent, reserve, volume-based discount, time
 - pay for what you use
+	- pay only for the services that you consume, with no large upfront expenses
 	- rent / on-demand
 	- more demand than reserve
-	- focuses on rental or operational expenses
-		- may be good for you if you didn
+	- focuses on **rental** or **operational expenses**
+		- may be good for you if you don't have that much money from the start 
+	- scaling in and out on demand = elasticity
 - pay less when you reserve
 	- you are committing to a **long-term usage** of the cloud
 	- 1 or 3 yr commitment
