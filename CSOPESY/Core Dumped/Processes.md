@@ -1,12 +1,12 @@
-During a context switch, the OS snapshots the current state of the CPU and saves it into the Process—this is so that each the process regains control of the CPU it will find the registers exactly as they were when they were interrupted.
+During a context switch, the OS **snapshots the current state of the CPU** and saves it into the Process—this is so that each the process regains control of the CPU it will find the registers exactly as they were when they were interrupted.
 
- Context Switch - a kernel routine; the action of capturing and restoring the current state of a Process so it can continue execution
+**Context Switch** - a kernel routine; the action of capturing and restoring the current state of a Process so it can continue execution
 
-This is how OS guaranteed Security and Correctness when sharing the CPU among multiple processes
+This is how OS guaranteed **Security and Correctness** when sharing the CPU among multiple processes
 
-When we switch Processes, we are replacing the entire context in which the OS operates
+When we switch Processes, we are **replacing the entire context** in which the OS operates
 
-Process Control Block - a special structure that the Operating System uses to keep track of every single process
+**Process Control Block** - a special structure that the Operating System uses to keep track of every single process
 - a process has the following:
 	- Unique ID
 	- multiple states:
@@ -20,9 +20,9 @@ Process Control Block - a special structure that the Operating System uses to ke
 	- Instruction Register
 	- Flags
 	- Stack Pointer (depends on hardware)
-	- Index Registers (depends on )
+	- Index Registers (depends on hardware)
 	- Memory Management information
-- The CPU State of a process includes: Program Counter to Flags
+- The **CPU State** of a process includes: **Program Counter to Index Registers**
 	- this is where the captured CPU state is stored (snapshot)
 
 The OS also keeps track of all the memory blocks allocated to each process 
