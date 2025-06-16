@@ -28,7 +28,12 @@ Your homeworks and MOs.
 Review also Doc Neils videos, very very useful for the coding exercise part.
 
 # Lesson Plan
-The exam has definition-based questions, but they're 
+The exam has definition-based questions, but they're surface-level. No need for deep diving
+
+Understand the Main Concepts
+- OS
+- I/O Display Interfaces
+- 
 
 Which notes to focus on?
 
