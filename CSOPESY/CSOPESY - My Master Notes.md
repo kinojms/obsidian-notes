@@ -33,4 +33,7 @@ Has three main components:
 - Components of a Program:
 	- Main Program - points to the main function
 	- Subroutine - contains all functions declared in code
-	- Libraries - external functions or dependencies r
+	- Libraries - external functions or dependencies required
+	- Symbol table - holds variables
+	- Stack - holds temporary variables for function calls. Also stores the return address of a given function call
+	- Heap - memory for dynamically allocated objects
