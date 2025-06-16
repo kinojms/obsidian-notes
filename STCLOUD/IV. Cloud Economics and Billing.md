@@ -153,6 +153,10 @@
 - main goal is for cost visualization & prediction for analysis
 - one of the sample products
 
-#### Forecast and Budget 
+#### Forecast and Track costs
 - can give alerts when you go overbudget
-- 
+- sets budgets & alerts
+
+#### Cost and Usage Reporting
+- tabular cost for detailed listing
+- what are you paying for?
