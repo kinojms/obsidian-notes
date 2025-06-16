@@ -77,9 +77,14 @@
 - no cost for configuration/orchestration
 - but you pay for services that they provision
 - Orchestration - deploying servers, configs, etc.
+	- there are rules and you automatically deploy your resources
 - Ex:
 	- Amazon VPC - Network
 	- Elastic Beanstalk - Orchestration
 	- Auto Scaling - Orchestration
 	- AWS CloudFormation - Orchestration
-	- AWS Identity and Access Management
+	- AWS Identity and Access Management - Directory Services / Orchestration
+- not everything has a cost
+
+# Total cost of Ownership
+How do you compare which is cheape
