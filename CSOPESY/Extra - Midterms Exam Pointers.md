@@ -32,5 +32,11 @@ Which notes to focus on?
 
 1. NDG Course Notes from Canvas
 	- focus on theory/concept + solving + code snippet
+	- Marquee Console
+	- OS Emulator
+		- How a Process class is structured
+	- Scheduling
+		- edge cases
+		- focus on mastering 1 core
 2. Sir Mantua Slides for OS Book Synthesis
 	- focus on theory
