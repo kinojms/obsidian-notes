@@ -219,8 +219,10 @@ Think of the library as the middleman that can recognize certain code names or c
 ### Communication
 - processes may exchange info with other processes
 - ex: active programs with running background services
-	- Facebook appliation (foreground)
-	- 
+	- Facebook application (foreground), sending notifications (background)
+### Resource Allocation
+- when there are multiple processes running at the same time, resources must be allocated to each of them
+- 
 
 
 
