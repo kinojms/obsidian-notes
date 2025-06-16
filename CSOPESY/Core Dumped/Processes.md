@@ -34,4 +34,4 @@ The PCB is NOT the Process itself but rather the representation of a Process. It
 
 This representation is what is actually placed in a queue.
 
-This concept is applicable to single and multicore 
+This concept is applicable to single processor and multicore systems. The only difference is that multicore systems can operate with multiple contexts at the same time due to each core having its own execution pipeline. 
