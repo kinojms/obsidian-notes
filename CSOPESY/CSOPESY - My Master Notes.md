@@ -57,4 +57,5 @@ Has three main components:
 ### OS for improvisation
 - in memory management, all OS perform a technique called **virtual memory**, where the OS uses secondary storages (HDD/SDD) as main memory whenever RAM is used up
 	- this gives the illusion of a very large main memory
-- most OS employs RR scheduling
+- most OS employs Round Robin scheduling algorithms, giving all processes an equal amount of execution time per CPU cycle
+- Windows 10 uses multi-level feedback queue scheduling (Round Robin with Priority Levels)
