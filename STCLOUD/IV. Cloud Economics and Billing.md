@@ -32,6 +32,8 @@
 - pay for what you use
 	- rent / on-demand
 	- more demand than reserve
+	- focuses on rental or operational expenses
+		- may be good for you if you didn
 - pay less when you reserve
 	- you are committing to a **long-term usage** of the cloud
 	- 1 or 3 yr commitment
