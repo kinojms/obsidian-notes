@@ -17,4 +17,8 @@
 - How do we display something on-screen? 
 	- display interfacing, screen buffers, refresh rates, etc.
 - How do we access input devices?
-	- `getch()`, `keyin(`
+	- `getch()`, `keyin()`, `std::in` API calls
+- How do we access storage? How do we organize our files in storage?
+	- fire directory systems implementation (Windows Explorer), user access permissions
+
+### Resource Allocator
