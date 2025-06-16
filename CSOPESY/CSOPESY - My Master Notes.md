@@ -6,7 +6,7 @@ Has three main components:
 - OS - coordinates use of hardware with user applications
 - Applications - typical apps used by a user
 
-OS Layers: 
+## OS Layers: 
 1. Users & System Programs 
 2. User Interface 
 3. System Calls 
@@ -180,7 +180,7 @@ int main() {
 | Information Maintenance | X             | Simulated, except no time-date support                                                                                                     |
 | Communications          | X             | Not Supported                                                                                                                              |
 | Protections             | X             | No protection feature                                                                                                                      |
-### How System Calls work/recognized
+#### How System Calls work/recognized
 
 ![[Pasted image 20250616211918.png]]
 
@@ -201,6 +201,8 @@ Think of the library as the middleman that can recognize certain code names or c
 - **Emulation Layer** - simulates/translates/restricts certain process commands 
 	- recall OS as a coordinator
 
+### Program Execution
+- to run
 
 
 
