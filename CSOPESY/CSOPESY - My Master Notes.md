@@ -38,4 +38,7 @@ Has three main components:
 	- Stack - holds temporary variables for function calls. Also stores the return address of a given function call
 	- Heap - memory for dynamically allocated objects
 
-	- Main Program to Symb
+	- Main Program to Symbol Table
+		- usually defined during compile time. Hence, they have a fixed size
+	- Heap and Stack
+		- the sizes of both have limits, but are generally consumed during run-time. Hence, the heal or the stack may not use the allocated space completel
