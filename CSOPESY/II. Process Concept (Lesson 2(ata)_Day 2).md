@@ -1,6 +1,6 @@
 # Process 
 - an OS executes a variety of programs that run as a **process**
-- Process - a program in execution; process execution must progress in sequential fashion. No parallel execution of instructions of a single process
+- **Process** - a program in execution; process execution must progress in sequential fashion. No parallel execution of instructions of a single process
 - Has multiple parts:
 	- Program Code - also called the text section
 	- Current activity including **program counter**, processor registers
