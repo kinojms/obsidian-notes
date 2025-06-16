@@ -173,5 +173,9 @@ int main() {
 | Information Maintenance | X             | Simulated, except no time-date support                                                                                                     |
 | Communications          | X             | Not Supported                                                                                                                              |
 | Protections             | X             | No protection feature                                                                                                                      |
+![[Pasted image 20250616211918.png]]
 
+The figure above shows how a typical compiled C program is executed in a commercial OS.
+
+`printf()`
 
