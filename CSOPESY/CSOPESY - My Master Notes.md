@@ -222,6 +222,8 @@ Think of the library as the middleman that can recognize certain code names or c
 	- Facebook application (foreground), sending notifications (background)
 ### Resource Allocation
 - when there are multiple processes running at the same time, resources must be allocated to each of them
+- in our OS emulator, the bulk of our implementation will be on resource allocation *(bruhh)*
+### Logging
 - 
 
 
