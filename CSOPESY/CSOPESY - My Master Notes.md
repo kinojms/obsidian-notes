@@ -58,8 +58,8 @@ Has three main components:
 ### OS for improvisation
 - in memory management, all OS perform a technique called **virtual memory**, where the OS uses secondary storages (HDD/SDD) as main memory whenever RAM is used up
 	- this gives the illusion of a very large main memory
-- most OS employs Round Robin scheduling algorithms, giving all processes an equal amount of execution time per CPU cycle
-- Windows 10 uses multi-level feedback queue scheduling (Round Robin with Priority Levels)
+- most OS employs **Round Robin** scheduling algorithms, giving all processes an equal amount of execution time per CPU cycle
+- **Windows 10** uses multi-level feedback queue scheduling **(Round Robin with Priority Levels)**
 
 *Note: The OS is technically a process but has higher priority than most, if not all, processes*
 # OS Emulator
@@ -95,6 +95,7 @@ int main() {
 ```
 
 1. *Bootstrap:*
+	- 
 	- perform low-level initialization (hardware setup, memory initialization, etc.)
 	- load the kernel into memory and start executing it
 	- ex: Perform hardware initialization
