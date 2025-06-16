@@ -68,4 +68,8 @@ Has three main components:
 	- perform low-level initialization (hardware setup, memory initialization, etc.)
 	- load the kernel into memory and start executing it
 	- ex: Perform hardware initialization
-2. 
+2. Kernel initialization:
+	- initialize data structs (process table, file system, etc.)
+	- set up interrupt handlers and device drivers
+	- initialize memory management and scheduling algorithms
+	- ex: initial
