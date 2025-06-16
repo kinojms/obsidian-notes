@@ -178,5 +178,8 @@ int main() {
 The figure above shows how a typical compiled C program is executed in a commercial OS.
 
 1. `printf()` is invoked
-2. C library sees this and tells the OS 
+2. C library sees this and sends the appropriate message to the OS (sends `write()` syscall)
+3. C library then takes the returned value by the `write()` syscall and passes it back to the user program
+
+Think of the library as the middleman that can
 
