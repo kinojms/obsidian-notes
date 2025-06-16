@@ -90,5 +90,6 @@ This mechanism just enables the CPU to respond to an asynchronous event, like wh
 In a modern OS, though, we need a more sophisticated interrupt-handling features:
 1. The ability to defer interrupt handling during critical processing
 2. An efficient way to dispatch to the proper interrupt handler for a device
-3. Multilevel interrupts, so that the OS can distinguish between high and low priority interrupts and can respond with the appropriate de
+3. Multilevel interrupts, so that the OS can distinguish between high and low priority interrupts and can respond with the appropriate degree of urgency
+These features are provided by the **CPU** and the **Interrupt-Controller Hardware**
 
