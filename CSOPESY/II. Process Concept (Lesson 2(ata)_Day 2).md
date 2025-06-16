@@ -35,6 +35,7 @@ How can it manage running all processes happening at the "same time"?
 Interrupts
 - error being thrown
 - abruptly stops the process before it stops running
+- context switching
 
 # Process Control 
 - kinda like the index card system used by professors
