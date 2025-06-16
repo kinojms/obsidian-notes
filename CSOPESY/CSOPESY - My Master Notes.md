@@ -226,7 +226,12 @@ Think of the library as the middleman that can recognize certain code names or c
 ### Logging
 - we want to keep track of which programs use how much and what kinds of computer resources
 - Task Manager
-- in our OS emulator, basic logging must be supported (ex: viewing of running processes, checking resource availability, CPU and memory ui)
+- in our OS emulator, basic logging must be supported (ex: viewing of running processes, checking resource availability, CPU and memory utilization, printing messages)
+### Protection and Security
+- ensures that all access to system resources is controlled
+- some API calls must be restricted or granted privileges
+	- Android app requesting access to GPS
+- 
 
 
 
