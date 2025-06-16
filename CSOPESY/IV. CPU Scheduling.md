@@ -54,6 +54,12 @@ Static threads can end up overwriting the outputs of another thread when threadi
 - Turnaround - from the time you're ready to execute to actually executing the process
 
 # CPU Scheduling Algorithms
+
+## Formulas
+
+Waiting Time = (Burst - TAT)
+TAT = (Completion - Arrival)
+
 ## FCFS - First Come, First Serve
 - FIFO
 - Run until done
