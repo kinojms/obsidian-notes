@@ -102,3 +102,9 @@
 ![[Pasted image 20250616132311.png]]
 
 - on premise considers HW, SW, Facilities, and Labor as considerations for TCO
+### AWS Pricing Calculator
+- all cloud providers give a way to estimate the cost of services
+- use the calculator to:
+	- estimate monthly costs
+	- identify opportunities to reduce monthly costs
+	- model your solutions before building the
