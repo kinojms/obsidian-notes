@@ -131,4 +131,7 @@ int main() {
 ![[Pasted image 20250616205835.png]]
 
 ### User Interface
-- refers to the display interface and reading of 
+- refers to the display interface and reading of peripheral inputs like the keyboard/mouse, touch screen, etc.
+- early OS started with command-line interfaces (CLI), which uses text commands and keyboard for entering them—this is what our OS emulator will look like
+
+
