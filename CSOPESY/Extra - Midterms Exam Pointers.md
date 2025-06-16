@@ -33,7 +33,9 @@ The exam has definition-based questions, but they're surface-level. No need for 
 Understand the Main Concepts
 - OS
 - I/O Display Interfaces
-- 
+- Processes
+- Scheduling
+- Threading
 
 Which notes to focus on?
 
