@@ -118,4 +118,7 @@ int main() {
 	- halt or reboot the system
 	- ex: clean up resources and prepare for shutdown
 
+# Operating System Structures
 
+## OS Services
+- 
