@@ -28,7 +28,8 @@ When we switch Processes, we are **replacing the entire context** in which the O
 The OS also keeps track of all the memory blocks allocated to each process using the Memory Management 
 
 ![[Pasted image 20250616164753.png]]
+Figure 1. Sample PCB Struct
 
-Sample PCB Struct
+Note: The PCB is NOT the Process itself but rather the representation of a Process. It serves as a repository for all the data needed to start or resume a Process, along with some extra info. 
 
-Note: The PCB is NOT the Process itself but rather the re
+This representation is actually 
