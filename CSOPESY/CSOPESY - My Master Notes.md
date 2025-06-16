@@ -64,26 +64,26 @@ Has three main components:
 # OS Emulator
 
 ## Typical Sequence of how an OS is loaded & run
-1. Bootstrap:
+1. *Bootstrap:*
 	- perform low-level initialization (hardware setup, memory initialization, etc.)
 	- load the kernel into memory and start executing it
 	- ex: Perform hardware initialization
-2. Kernel initialization:
+2. *Kernel initialization:*
 	- initialize data structs (process table, file system, etc.)
 	- set up interrupt handlers and device drivers
 	- initialize memory management and scheduling algorithms
 	- ex: initialize process table and memory manager (memory allocation algo, demand paging)
-3. Start system services:
+3. *Start system services:*
 	- start essential system services (file system, networking, etc.)
 	- Launch system daemons and background processes 
 	- Example: Start file system service and network service 
 	- Observation: These are processes that are persistent in the OS – always alive/periodically invoking functions
-4. Enter main loop:
+4. *Enter main loop:*
 	- continuously handle interrupts and system calls
 	- dispatch user processes and manage their execution
 	- handle user input and manage I/O operations
 	- ex: enter an infinite loop to handle system events
-5. Shutdown and cleanup:
+5. *Shutdown and cleanup:*
 	- gracefully terminate running processes and services
 	- clean up allocated resources and release memory
 	- halt or reboot the system
