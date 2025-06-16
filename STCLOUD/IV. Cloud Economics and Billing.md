@@ -137,3 +137,6 @@
 
 ### AWS Billing Dashboard
 - visualizing cost can help better understand where your money goes & how to reduce spending
+
+### Tools
+- there are many tools to help you understand yo
