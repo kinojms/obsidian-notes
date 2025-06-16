@@ -104,17 +104,19 @@ int main() {
 	- set up interrupt handlers and device drivers
 	- initialize memory management and scheduling algorithms
 	- ex: initialize process table and memory manager (memory allocation algo, demand paging)
-	- 
+	- Supervisor sets up the equipment and production line
 3. *Start system services:*
 	- start essential system services (file system, networking, etc.)
 	- Launch system daemons and background processes 
 	- Example: Start file system service and network service 
 	- Observation: These are processes that are persistent in the OS – always alive/periodically invoking functions
+	- Supervisor wakes up the child laborers with their own respective tasks
 4. *Enter main loop:*
 	- continuously handle interrupts and system calls
 	- dispatch user processes and manage their execution
 	- handle user input and manage I/O operations
 	- ex: enter an infinite loop to handle system events
+	- 
 5. *Shutdown and cleanup:*
 	- gracefully terminate running processes and services
 	- clean up allocated resources and release memory
