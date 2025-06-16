@@ -141,3 +141,7 @@ int main() {
 		- developing a command interpreter requires processing of commands received from keyboard input
 			- has a list of recognizable commands
 			- tokenization of commands
+	- System Calls
+		- are libraries or interfaces developed that exposes services in an OS (ex: print functions, read/write of files, etc.)
+		- also refers to system APIs
+			- 
