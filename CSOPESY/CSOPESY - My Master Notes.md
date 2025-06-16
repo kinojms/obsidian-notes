@@ -42,14 +42,15 @@ Has three main components:
 		- usually defined during compile time. Hence, they have a fixed size
 	- **Heap and Stack**
 		- the sizes of both have limits, but are generally consumed during run-time. Hence, the heal or the stack may not use the allocated space completely
-	- Stack Overflow Scenario: A faulty recursive function causes the stack to exceed its limit which returns the SO error
-	- OutOfMemory Error: Excessive allocation of objects (continuously loading images) or unoptimized use of dynamic storages will exceed allocated heap space
+	- **Stack Overflow Scenario:** A faulty recursive function causes the stack to exceed its limit which returns the SO error
+	- **OutOfMemory Error:** Excessive allocation of objects (continuously loading images) or unoptimized use of dynamic storages will exceed allocated heap space
 	
-- the OS pre-allocates memory on each application
-- each application has a certain boundary on their components and overstepping these boundaries throw errors
+- the OS **pre-allocates** memory on each application
+- each application has a **certain boundary** on their components and **overstepping** these boundaries **throw errors**
 
 ### OS reinforcing Security
-- each process has its own allocation and cannot be accessed by any other process
+- kind of like encapsulation(?)
+- each process has its own allocation and **cannot be accessed by any other process**
 - if processes need to share information, each process must have instructions on writing/reading a shared file
 - OS typically denies any malicious memory accesses
 	- but some tools exists to circumvent this (Cheat Engines)
