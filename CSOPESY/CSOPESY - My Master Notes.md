@@ -116,12 +116,13 @@ int main() {
 	- dispatch user processes and manage their execution
 	- handle user input and manage I/O operations
 	- ex: enter an infinite loop to handle system events
-	- Typical SHEIN factory working day—ki 
+	- Typical SHEIN factory working day 
 5. *Shutdown and cleanup:*
 	- gracefully terminate running processes and services
 	- clean up allocated resources and release memory
 	- halt or reboot the system
 	- ex: clean up resources and prepare for shutdown
+	- End of day 
 
 # Operating System Structures
 
