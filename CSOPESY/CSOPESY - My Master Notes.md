@@ -165,8 +165,13 @@ int main() {
 			- *fml tinamad nako magtype*
 		- How its developed in our OS Emulator:
 
-| System Call     | Commercial OS | CSOPESY Emulator                                                                                                                           |
-| --------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| Process Control | X             | Processes are simulated. Each process will have a pre-defined set of simple commands to execute, mock I/O read/write, print command, delay |
-| File Management | X             | File Directory is simulated.                                                                                                               |
+| System Call             | Commercial OS | CSOPESY Emulator                                                                                                                           |
+| ----------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Process Control         | X             | Processes are simulated. Each process will have a pre-defined set of simple commands to execute, mock I/O read/write, print command, delay |
+| File Management         | X             | File Directory is simulated. All files are stored inside a single file (.csopesy file) *bro what*                                          |
+| Device Management       | X             | Simulated. Devices and contexts are configured                                                                                             |
+| Information Maintenance | X             | Simulated, except no time-date support                                                                                                     |
+| Communications          | X             | Not Supported                                                                                                                              |
+| Protections             | S             |                                                                                                                                            |
+|                         |               |                                                                                                                                            |
 
