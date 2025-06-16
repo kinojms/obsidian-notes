@@ -44,3 +44,5 @@ Has three main components:
 		- the sizes of both have limits, but are generally consumed during run-time. Hence, the heal or the stack may not use the allocated space completely
 	- Stack Overflow Scenario: A faulty recursive function causes the stack to exceed its limit which returns the SO error
 	- OutOfMemory Error: Excessive allocation of objects (continuously loading images) or unoptimized use of dynamic storages will exceed allocated heap space
+	
+- the OS pre-allocates memory on each applica
