@@ -135,5 +135,6 @@ int main() {
 - early OS started with command-line interfaces (CLI), which uses text commands and keyboard for entering them—this is what our OS emulator will look like
 
 - since we will be doing a command-line-interface style emulator, essential features are:
-	- Command Interpreter
-		- most OS treat the command interpreter as a special program that is running when a process is 
+	- **Command Interpreter**
+		- most OS treat the command interpreter as a special program that is running when a process is initiated or when a user first logs on (on interactive systems)
+	- **Virtual Machines** (via Cloud) merely provides a Linux **shell** with Python and ML libraries **pre-installed**
