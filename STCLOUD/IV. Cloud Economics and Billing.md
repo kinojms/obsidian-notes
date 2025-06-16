@@ -41,12 +41,16 @@
 	- 1 or 3 yr commitment
 	- *Note: If you reserve, you lose scaling on-demand advantage
 	- is cheaper than on-demand
+	- invest in Reserved Instances (RIs)
 	- save up to 75%
 	- Options for reservation:
 		- All Upfront Reserved Instance (AURI) -> Largest discount
 			- similar to traditional
+			- high capex, low opex
 		- Partial Upfront Reserved Instance (PURI) -> Lowest discount
-			- seen as a downpayment with monthly cost
+			- seen as a down payment with monthly cost
+			- capex + opex
 		- No Upfront Payments Reserved Instance (NURI) -> Smaller discount
-			- 
+			- rent but w/ committment
+			- high opex, low capex
 - pay less when you use more and as AWS grows
