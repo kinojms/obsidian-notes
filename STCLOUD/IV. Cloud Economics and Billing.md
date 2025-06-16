@@ -3,16 +3,18 @@
 - CPU, GPU, etc.
 - charged by:
 	- charged **per hour/second**
-		- hour - corresponds to duration
+		- hour - corresponds to duration—how long you're using the machine
 	- varies by instance type
+		- CPU, RAM, Storage
 	- by location
 		- you can choose the region
 		- per region has a difference in price
 	- cost always depends on the use case 
 	- *per second is for Linux only*
 
-*Note: we use Cloud Pricing Calculators to estimate how much it will cost you if you would opt for cloud or on-premise*
-*We have NO computations for Midterms*
+*Note: We use Cloud Pricing Calculators to estimate how much it will cost you if you would opt for cloud or on-premise*
+
+*We WON'T have computations for Midterms*
 
 ## Storage
 - charged by:
