@@ -231,7 +231,10 @@ Think of the library as the middleman that can recognize certain code names or c
 - ensures that all access to system resources is controlled
 - some API calls must be restricted or granted privileges
 	- Android app requesting access to GPS
-- 
+- typically requires each user to authenticate—thus OS needs user account support
+- does not allow viewing of machine code
+- in our OS emulator, we will NOT be implementing any protection and security features
+
 
 
 
