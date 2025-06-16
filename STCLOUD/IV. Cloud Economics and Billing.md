@@ -24,6 +24,7 @@
 ## Data Transfer
 - outbound is aggregated and charged
 - inbound has no charge with some exceptions)
+	- depends where the data passes through
 - charged typically per GB
 
 # How do you pay for AWS?
