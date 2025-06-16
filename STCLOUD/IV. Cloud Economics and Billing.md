@@ -29,14 +29,14 @@
 
 # How do you pay for AWS?
 - rent, reserve, volume-based discount, time
-- pay for what you use
-	- pay only for the services that you consume, with no large upfront expenses
+## Pay for what you use
+- pay only for the services that you consume, with no large upfront expenses
 	- rent / on-demand
 	- more demand than reserve
 	- focuses on **rental** or **operational expenses**
 		- may be good for you if you don't have that much money from the start 
 	- scaling in and out = elasticity
-- pay less when you reserve
+## Pay less when you reserve
 	- you are committing to a **long-term usage** of the cloud
 	- **lower cost** at the expense of **guessing capacity**
 	- 1 or 3 yr commitment
@@ -45,13 +45,13 @@
 	- invest in Reserved Instances (RIs)
 	- save up to 75%
 	- Options for reservation:
-		- All Upfront Reserved Instance (AURI) -> Largest discount
+		- **All Upfront Reserved Instance (AURI)** -> Largest discount
 			- similar to traditional
-			- high capex, low opex
-		- Partial Upfront Reserved Instance (PURI) -> Lowest discount
+			- *high capex, low opex*
+		- **Partial Upfront Reserved Instance (PURI)** -> Lowest discount
 			- seen as a down payment with monthly cost
-			- capex + opex
-		- No Upfront Payments Reserved Instance (NURI) -> Smaller discount
+			- *capex + opex*
+		- **No Upfront Payments Reserved Instance (NURI)** -> Smaller discount
 			- rent but w/ commitment
-			- high opex, low capex
-- pay less when you use more and as AWS grows
+			- *high opex, low capex*
+## Pay less when you use more and as AWS grows
