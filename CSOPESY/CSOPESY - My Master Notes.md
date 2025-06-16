@@ -164,4 +164,8 @@ int main() {
 			- Protection
 			- *fml tinamad nako magtype*
 		- How its developed in our OS Emulator:
-		- 
+
+| System Call | Commercial OS |     |
+| ----------- | ------------- | --- |
+|             |               |     |
+
