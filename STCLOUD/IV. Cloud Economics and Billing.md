@@ -164,7 +164,12 @@
 ### Support Plans
 - help in troubleshooting as well as setup & deployment needs
 - AWS Support offers four support plans:
-	- Basic Support - resource center access, service health dashboard, product FAQs, discussion forums, and support for health checks
-	- Developer Support - support for early development on AWS
-	- Business Support - customers that run production workloads
-	- Enterprise Support - customers that run business and mission-critical workload
+	- **Basic Support** 
+		- resource center access, service health dashboard, product FAQs, discussion forums, and support for health checks
+		- usually free
+	- **Developer Support**
+		- support for early development on AWS
+	- **Business Support** 
+		- customers that run production workloads
+	- **Enterprise Support** 
+		- customers that run business and mission-critical workload
