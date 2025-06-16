@@ -35,10 +35,14 @@
 	- more demand than reserve
 	- focuses on **rental** or **operational expenses**
 		- may be good for you if you don't have that much money from the start 
-	- scaling in and out on demand = elasticity
+	- scaling in and out = elasticity
 - pay less when you reserve
 	- you are committing to a **long-term usage** of the cloud
 	- 1 or 3 yr commitment
 	- *Note: If you reserve, you lose scaling on-demand advantage
 	- is cheaper than on-demand
+	- Options for reservation:
+		- All Upfront Reserved Instance (AURI) -> Largest discount
+		- Partial Upfront Reserved Instance (PURI) -> Lowest discount
+		- No Upfront Payments Res
 - pay less when you use more and as AWS grows
