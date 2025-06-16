@@ -1,3 +1,7 @@
 # Intro to Operating Systems
 
-A co
+## Computer System
+Has three main components:
+- Hardware - physical components and drivers
+- OS
+- Applications
