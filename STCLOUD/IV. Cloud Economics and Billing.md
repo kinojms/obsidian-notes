@@ -161,3 +161,6 @@
 - tabular cost for detailed listing
 - what are you paying for?
 
+### Support Plans
+- help in troubleshooting as well as setup & deployment needs
+- AWS Support soffer
