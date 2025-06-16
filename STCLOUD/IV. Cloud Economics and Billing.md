@@ -64,4 +64,8 @@
 	- AWS focuses on lowering cost of doing business
 	- this practice results in AWS passing savings from economies of scale to you
 ## Custom Pricing
-- special pricing
+- special pricing for high volume clients
+- meet varying needs through custom pricing
+- available for high-volume projects with unique requirements
+## AWS Free Tier
+- free use or ****
