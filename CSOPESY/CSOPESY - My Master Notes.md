@@ -177,5 +177,6 @@ int main() {
 
 The figure above shows how a typical compiled C program is executed in a commercial OS.
 
-`printf()`
+1. `printf()` is invoked
+2. C library sees this and tells the OS 
 
