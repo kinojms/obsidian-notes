@@ -1,0 +1,1 @@
+During a context switch, the OS snapshots the current state of the CPU
