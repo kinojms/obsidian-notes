@@ -115,7 +115,7 @@
 
 ### Additional Benefit Considerations
 - consider if it is beneficial to your business and technology needs
-- Hard Benefits:
+- **Hard Benefits:**
 	- reduced spending 
 	- reductions in hardware and software purchases (capex)
 	- reductions in oepx, backup, and disaster recovery
@@ -124,10 +124,13 @@
 	- you don't necessarily reduce spending but instead you:
 		- outsource
 		- rent/subscribe (opex)
-- Soft Benefits:
+- **Soft Benefits:**
 	- reuse of service and applications that enable you to define (and redefine solutions) by using the same cloud service
 	- increased developer productivity
 		- focus on PaaS/SaaS or Infra as SW
 	- improved customer satisfaction
 		- latency & ease of use
-	- agile business processes that can quickly respond to new and emerging opportuniti
+	- agile business processes that can quickly respond to new and emerging opportunities
+		- speed & agility
+	- increase in global reach
+- *Note: It's all based on use-cases where it might be more beneficial for you to go for cloud* 
