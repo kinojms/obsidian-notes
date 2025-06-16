@@ -205,14 +205,16 @@ Think of the library as the middleman that can recognize certain code names or c
 - general idea is that to run a program, it must be loaded into memory, and a register dictates the flow of instructions to be executed
 	- our representation of a program/process only consists of placeholder commands
 	- so we'll devise a command flow (sequence of execution), process scheduling, resource and memory allocation
-- run a program -> loaded to memory -> register determines the flow of instructions 
+- **run a program -> loaded to memory -> register determines the flow of instructions** 
 ### I/O Operations
 - a running program may require I/O, which may involve a file or an I/O device
 - for efficiency and protection, **users cannot control I/O devices directly**
 - in our OS emulator, request for a device/driver will be simulated 
 ### File-system Manipulation
 - programs would often need access to certain files and directories
-- they also need to create and delete them by name 
+- they also need to create and delete them by name, search for a given file, and list file info
+- some OS include permissions management
+- in our OS emulator, directory systems will be emulated where N editable files are "combined" together into a s
 
 
 
