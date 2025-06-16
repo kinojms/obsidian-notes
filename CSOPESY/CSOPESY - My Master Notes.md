@@ -146,4 +146,15 @@ int main() {
 		- are libraries or interfaces developed that exposes services in an OS (ex: print functions, read/write of files, etc.)
 		- also refers to system APIs
 			- several Programming Languages have system APIs that are automatically included (print,/println class/object management, etc.)
-	- 
+		- samples of syscalls:
+			- Process control
+				- create process, terminate process
+				- load, execute
+				- get process attributes, set process attributes
+				- wait event, signal event
+				- allocate and free memory
+			- File management
+				- create file, delete file
+				- open, close
+				- read, write, reposition
+				- get file attr
