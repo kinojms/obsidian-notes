@@ -59,3 +59,5 @@ Has three main components:
 	- this gives the illusion of a very large main memory
 - most OS employs Round Robin scheduling algorithms, giving all processes an equal amount of execution time per CPU cycle
 - Windows 10 uses multi-level feedback queue scheduling (Round Robin with Priority Levels)
+
+# OS Emulator
