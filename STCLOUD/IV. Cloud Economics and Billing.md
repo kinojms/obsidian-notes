@@ -145,7 +145,7 @@
 - AWS Cost and Usage Report
 - AWS Cost Explorer
 
-#### Monthly Bills
+#### Monthly Bills (Bills)
 - simplified billing list as a table
 - shows you how much you're gonna pay this month
 
@@ -153,10 +153,11 @@
 - main goal is for cost visualization & prediction for analysis
 - one of the sample products
 
-#### Forecast and Track costs
+#### Forecast and Track costs (Budgets)
 - can give alerts when you go overbudget
 - sets budgets & alerts
 
-#### Cost and Usage Reporting
+#### Cost and Usage Reporting (Reports)
 - tabular cost for detailed listing
 - what are you paying for?
+
