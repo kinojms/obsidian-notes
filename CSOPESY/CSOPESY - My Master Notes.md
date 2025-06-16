@@ -224,7 +224,9 @@ Think of the library as the middleman that can recognize certain code names or c
 - when there are multiple processes running at the same time, resources must be allocated to each of them
 - in our OS emulator, the bulk of our implementation will be on resource allocation *(bruhh)*
 ### Logging
-- 
+- we want to keep track of which programs use how much and what kinds of computer resources
+- Task Manager
+- in our OS emulator, basic logging must be supported (ex: viewing of running processes, checking resource availability, CPU and memory ui)
 
 
 
