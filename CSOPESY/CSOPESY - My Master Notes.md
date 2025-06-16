@@ -202,7 +202,9 @@ Think of the library as the middleman that can recognize certain code names or c
 	- recall OS as a coordinator
 
 ### Program Execution
-- to run
+- general idea is that to run a program, it must be loaded into memory, and a register dictates the flow of instructions to be executed
+	- our representation of a program/process only consists of placeholder commands
+	- so we'll
 
 
 
