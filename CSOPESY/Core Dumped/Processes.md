@@ -21,9 +21,9 @@ When we switch Processes, we are **replacing the entire context** in which the O
 	- Flags
 	- Stack Pointer (depends on hardware)
 	- Index Registers (depends on hardware)
-	- Memory Management information
+	- Memory Management information - includes the memory limits of each process' address space
 - The **CPU State** of a process includes: **Program Counter to Index Registers**
 	- this is where the captured CPU state is stored (snapshot)
 
-The OS also keeps track of all the memory blocks allocated to each process 
+The OS also keeps track of all the memory blocks allocated to each process using the Memory Management 
 
