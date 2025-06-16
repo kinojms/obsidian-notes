@@ -60,9 +60,12 @@ Has three main components:
 - most OS employs Round Robin scheduling algorithms, giving all processes an equal amount of execution time per CPU cycle
 - Windows 10 uses multi-level feedback queue scheduling (Round Robin with Priority Levels)
 
+*Note: The OS is technically a process but has higher priority than most, if not all, processes*
 # OS Emulator
 
 ## Typical Sequence of how an OS is loaded & run
 1. Bootstrap:
 	- perform low-level initialization (hardware setup, memory initialization, etc.)
-	- load the ker)
+	- load the kernel into memory and start executing it
+	- ex: Perform hardware initialization
+2. 
