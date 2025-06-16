@@ -15,4 +15,6 @@
 
 ### OS as an API to hardware resources
 - How do we display something on-screen? 
-	- display interfacing, screen buf
+	- display interfacing, screen buffers, refresh rates, etc.
+- How do we access input devices?
+	- `getch()`, `keyin(`
