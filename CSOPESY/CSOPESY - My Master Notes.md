@@ -64,6 +64,35 @@ Has three main components:
 # OS Emulator
 
 ## Typical Sequence of how an OS is loaded & run
+```
+#include <iostream>
+
+void bootstrap();
+void initializeKernel();
+void startSystemServices();
+void enterMainLoop();
+void shutdownAndCleanup();
+
+int main() {
+
+	// Step 1: Boostrapping
+	bootstrap();
+
+	// Step 2: Init Kernel
+	initializeKernel();
+
+	// Step 3: Start System Services
+	startSystemServices();
+
+	// Step 4: Enter Main Loop
+	enterMainLoop();
+
+	// Step 5: Shutdown & Cleanup
+	shutdownAndCleanup();
+
+}
+```
+
 1. *Bootstrap:*
 	- perform low-level initialization (hardware setup, memory initialization, etc.)
 	- load the kernel into memory and start executing it
@@ -89,29 +118,4 @@ Has three main components:
 	- halt or reboot the system
 	- ex: clean up resources and prepare for shutdown
 
-```
-#include <iostream>
 
-void bootstrap();
-void initializeKernel();
-void startSystemServices();
-void enterMainLoop();
-void shutdownAndCleanup();
-
-int main() {
-
-	// Step 1: Boostrapping
-	bootstrap();
-
-	// Step 2: Init Kernel
-	initializeKernel();
-
-	// Start System S
-	startSystemServices();
-
-	enterMainLoop();
-
-	shutdownAndCleanup();
-
-}
-```
