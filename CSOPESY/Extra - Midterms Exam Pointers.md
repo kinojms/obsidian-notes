@@ -28,6 +28,8 @@ Your homeworks and MOs.
 Review also Doc Neils videos, very very useful for the coding exercise part.
 
 # Lesson Plan
+The exam has definition-based questions, but they're 
+
 Which notes to focus on?
 
 1. NDG Course Notes from Canvas
@@ -40,3 +42,4 @@ Which notes to focus on?
 		- focus on mastering 1 core
 2. Sir Mantua Slides for OS Book Synthesis
 	- focus on theory
+3. ![[CSOPESY Notes from Linktree.pdf]]
