@@ -234,6 +234,7 @@ Think of the library as the middleman that can recognize certain code names or c
 - typically requires each user to authenticate—thus OS needs user account support
 - does not allow viewing of machine code
 - in our OS emulator, we will NOT be implementing any protection and security features
+![[Pasted image 20250616215348.png]]
 
 
 
