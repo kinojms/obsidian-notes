@@ -87,4 +87,8 @@
 - not everything has a cost
 
 # Total cost of Ownership
-How do you compare which is cheape
+**How do you compare which is cheaper between on-premise vs. cloud?**
+- they are very different, but COST can be a common factor to consider
+![[Pasted image 20250616131940.png]]
+
+
