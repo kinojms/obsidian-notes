@@ -76,4 +76,5 @@ Has three main components:
 3. Start system services:
 	- start essential system services (file system, networking, etc.)
 	- Launch system daemons and background processes 
-	- Example: Start file system service and network service o Observation: These are processes that are persistent in the OS – always alive/periodically invoking functions
+	- Example: Start file system service and network service 
+	- Observation: These are processes that are persistent in the OS – always alive/periodically invoking functions
