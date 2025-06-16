@@ -173,3 +173,5 @@
 		- customers that run production workloads
 	- **Enterprise Support** 
 		- customers that run business and mission-critical workload
+		- most expensive option
+		- 
