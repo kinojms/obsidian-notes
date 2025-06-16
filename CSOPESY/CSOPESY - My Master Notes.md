@@ -165,7 +165,8 @@ int main() {
 			- *fml tinamad nako magtype*
 		- How its developed in our OS Emulator:
 
-| System Call | Commercial OS |     |
-| ----------- | ------------- | --- |
-|             |               |     |
+| System Call     | Commercial OS | CSOPESY Emulator                                                                                                                           |
+| --------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Process Control | X             | Processes are simulated. Each process will have a pre-defined set of simple commands to execute, mock I/O read/write, print command, delay |
+| File Management | X             | File Directory is simulated.                                                                                                               |
 
