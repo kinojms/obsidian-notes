@@ -94,4 +94,11 @@
 ## Total Cost of Ownership (TCO)
 - the financial estimate to help identify direct and indirect costs of a system
 - Why use TCO?
-	- to compare the costs of running an entire infrastructure environment or specific workload on-premises vs. on 
+	- to compare the costs of running an entire infrastructure environment or specific workload on-premises vs. on AWS
+	- to budget and build the business case for moving to the cloud
+- Financial Estimate of Renting vs Owning
+
+### TCO Considerations
+![[Pasted image 20250616132311.png]]
+
+- 
