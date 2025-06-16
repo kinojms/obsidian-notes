@@ -55,4 +55,6 @@ Has three main components:
 	- but some tools exists to circumvent this (Cheat Engines)
 
 ### OS for improvisation
-- in memory management, all OS pe
+- in memory management, all OS perform a technique called **virtual memory**, where the OS uses secondary storages (HDD/SDD) as main memory whenever RAM is used up
+	- this gives the illusion of a very large main memory
+- most OS employs RR scheduling
