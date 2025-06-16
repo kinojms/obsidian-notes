@@ -135,7 +135,7 @@
 	- increase in global reach
 - *Note: It's all based on use-cases where it might be more beneficial for you to go for cloud* 
 
-### Useful Vis
+### Useful Visualization tools for TCO
 #### AWS Billing Dashboard
 - visualizing cost can help better understand where your money goes & how to reduce spending
 
@@ -148,3 +148,8 @@
 #### Monthly Bills
 - simplified billing list as a table
 - shows you how much you're gonna pay this month
+
+#### Cost Explorer
+- main goal is for cost visualization & prediction for analysis
+- one of the sample products
+
