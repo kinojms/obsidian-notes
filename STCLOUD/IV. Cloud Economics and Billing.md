@@ -75,3 +75,11 @@
 
 ## Services with no charge
 - no cost for configuration/orchestration
+- but you pay for services that they provision
+- Orchestration - deploying servers, configs, etc.
+- Ex:
+	- Amazon VPC - Network
+	- Elastic Beanstalk - Orchestration
+	- Auto Scaling - Orchestration
+	- AWS CloudFormation - Orchestration
+	- AWS Identity and Access Management
