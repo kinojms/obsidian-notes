@@ -85,5 +85,7 @@ The basic interrupt mechanism works as follows:
 
 Basically: **IRL** monitors for signals -> signal sent by CPU -> IRL **reads** the number on the signal and jumps to **IHR** -> **Starts** **execution** of interrupts
 
+This mechanism just enables the CPU to respond to an asynchronous event, like when a device controller becomes ready for service.
 
+In a modern OS, though, we need a more sophisticated interrupt-handling features:
 
