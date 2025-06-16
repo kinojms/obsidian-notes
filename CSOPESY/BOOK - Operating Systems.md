@@ -83,5 +83,5 @@ The basic interrupt mechanism works as follows:
 	- When the CPU detects that a controller has **sent a signal** on the **IRL**, it reads the number and jumps to this routine—using the interrupt number as an index into the interrupt vector
 3. **Starts execution** at the address associated with that index
 
-Basically: IRL monitors for signals -> signal sent by CPU -> IRL reads the number on the signal and jumps to IHR -> Starts execut
+Basically: IRL monitors for signals -> signal sent by CPU -> IRL reads the number on the signal and jumps to IHR -> Starts execution of interrupts
 
