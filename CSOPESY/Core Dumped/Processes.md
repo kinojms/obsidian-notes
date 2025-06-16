@@ -20,5 +20,7 @@ Process Control Block - a special structure that the Operating System uses to ke
 	- Instruction Register
 	- Flags
 - The CPU State of a process includes: Program Counter to Flags
-	- this is where the data (snapshot) of a 
+	- this is where the captured CPU state is stored (snapshot)
+
+The OS also keeps track of all the memory blocks allocated to each process 
 
