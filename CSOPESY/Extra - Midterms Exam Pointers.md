@@ -31,6 +31,6 @@ Review also Doc Neils videos, very very useful for the coding exercise part.
 Which notes to focus on?
 
 1. NDG Course Notes from Canvas
-	- focus on solving
+	- focus on theory/concept + solving + code snippet
 2. Sir Mantua Slides for OS Book Synthesis
 	- focus on theory
