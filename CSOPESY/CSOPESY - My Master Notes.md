@@ -21,4 +21,7 @@
 - How do we access storage? How do we organize our files in storage?
 	- fire directory systems implementation (Windows Explorer), user access permissions
 
-### Resource Allocator
+### OS as a Resource Allocator
+- programs are allocated
+- memory address is decided by the OS
+- each program has its own set of instructions
