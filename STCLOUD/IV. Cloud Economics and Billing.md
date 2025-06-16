@@ -134,3 +134,6 @@
 		- speed & agility
 	- increase in global reach
 - *Note: It's all based on use-cases where it might be more beneficial for you to go for cloud* 
+
+## AWS Billing Dashboard
+- visualizing cost can help better understand where your
