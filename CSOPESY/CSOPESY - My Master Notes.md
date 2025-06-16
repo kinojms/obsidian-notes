@@ -186,5 +186,7 @@ Think of the library as the middleman that can recognize certain code names or c
 In our OS emulator:
 - C program -> emulated process with list of commands
 	- ex: 1 process with 100 lines of instructions 
-- syscalls and its asso
+- syscalls and its associated library is **inverted**
+	- syscall are emulated, where standard C++ library calls are used to communicate with actual OS system calls
+- basically, we have one **emulation** layer containing features that essentially make up a simple OS shell—process scheduler, memory managee
 
