@@ -172,6 +172,6 @@ int main() {
 | Device Management       | X             | Simulated. Devices and contexts are configured                                                                                             |
 | Information Maintenance | X             | Simulated, except no time-date support                                                                                                     |
 | Communications          | X             | Not Supported                                                                                                                              |
-| Protections             | S             |                                                                                                                                            |
-|                         |               |                                                                                                                                            |
+| Protections             | X             | No protection feature                                                                                                                      |
+
 
