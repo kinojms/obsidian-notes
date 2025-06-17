@@ -23,13 +23,12 @@ Convenience
 	- diff processes have diff registers
 	- for loops iterating `i` basically just gets the `i` refreshed/updated not the register
 - VERY FAST
-	Message passing
+## Message passing
 - both process (A and B) instead of sharing a variable, they pass messages instead—also facilitated by the OS
 - any message passing becomes a producer-consumer problem
 	- Ex: instructor produces modules, HWs; consumer does them
 	- Ex: producer process makes info that is consumed by a consumer process
-
-**Producer-Consumer Problem**
+### Producer-Consumer Problem
 
 Two variations
 - difference is whether the producer waits or not
