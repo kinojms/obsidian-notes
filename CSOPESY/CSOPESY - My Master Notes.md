@@ -262,9 +262,15 @@ All event-driven applications are derived from real-time applications. All event
 
 ![[Pasted image 20250617144211.png]]
 
-Keyboard Polling Example:
+#### Keyboard Polling Example:
 **Real-time feature -> Keyboard Polling** (constantly checks for any input from keyboard)
-**Event-driven feature -> KeyboardEvent implementation** (what happens when a key is pressed)
+**Event-driven feature -> IKeyboardEvent implementation** (what happens when a key is pressed)
+
+## Display Interface
+- drawing on the screen
+- every cycle, we must have mechanisms to refresh the screen per frame, while polling for I/O events
+
+
 
 
 
