@@ -262,6 +262,10 @@ All event-driven applications are derived from real-time applications. All event
 
 ![[Pasted image 20250617144211.png]]
 
+Keyboard Polling Example:
+**Real-time feature -> Keyboard Polling** (constantly checks for any input from keyboard)
+**Event-driven feature -> KeyboardEvent implementation** (what happens when a key is pressed)
+
 
 
 
