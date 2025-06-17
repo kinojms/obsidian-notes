@@ -14,7 +14,7 @@ Modularity - especially in Linux, a program should only do one thing (specialize
 Convenience
 
 ## Shared memory
-- allows memory space to be s
+- allows memory space to be shared directly
 - kind of hard to do this
 - can only be written by one process at a time
 - dev has to implement some kind of process synchronization
