@@ -1,9 +1,9 @@
 # Interprocess Communication (IPC) 
 Facilitated by the OS
 
-Cooperating process - add explanation here
+Cooperating process - shares data with other processes
 
-Interconnected...
+Independent - never interacts with another process
 
 Computation speedup - your program can spawn multiple processes to speed up the thing
 
