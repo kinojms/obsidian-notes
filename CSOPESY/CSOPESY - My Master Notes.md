@@ -260,10 +260,9 @@ Think of the library as the middleman that can recognize certain code names or c
 
 All event-driven applications are derived from real-time applications. All event-driven applications still require functionality that needs to run in real-time
 
-Event-driven Features
-- interrupts
-- OnAction events
-Real-time features
+![[Pasted image 20250617144211.png]]
+
+
 
 
 
