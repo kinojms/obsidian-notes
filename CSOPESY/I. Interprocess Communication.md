@@ -82,7 +82,7 @@ Operations:
 - send and receive messages thru mailbox
 - delete a mailbox
 
-## Synchronization
+### Synchronization
 
 - Blocking is considered synchronous (Direct)
 	- blocking send 
