@@ -23,16 +23,6 @@ Convenience
 	- diff processes have diff registers
 	- for loops iterating `i` basically just gets the `i` refreshed/updated not the register
 - VERY FAST
-### Producer-Consumer Problem
-
-Two variations
-- difference is whether the producer waits or not
-
-unbounded:
-- producer never waits
-
-bounded:
-- producer must wait till all consumers are full
 
 ### Full Buffer
 - just doing a counting of how much data you have in your allocated buffer
@@ -43,14 +33,27 @@ bounded:
 	- there synchronization mechanisms for this
 
 ## Message Passing
+- both process (A and B) instead of sharing a variable, they pass messages instead—also facilitated by the OS
+- any message passing becomes a producer-consumer problem
+	- Ex: instructor produces modules, HWs; consumer does them
+	- Ex: producer process makes info that is consumed by a consumer process
 - it's just like throwing data
 	- much like packet passing in CSNETWK
 - Person A has to get Person B's attention first before they pass messages
 	- Note: Chrome spawns multiple threads just to load a single website
 - unidirectional - one way flow of interaction
 - bi-directional - uses a feedback loop so sender also receives replies
+### Producer-Consumer Problem
 
-## Implementation of Communication Link
+Two variations
+- difference is whether the producer waits or not
+
+unbounded:
+- producer never waits
+
+bounded:
+- producer must wait till all consumers are full
+### Communication Link
 
 Physical:
 - shared memory
