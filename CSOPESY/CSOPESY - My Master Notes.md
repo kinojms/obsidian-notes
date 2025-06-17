@@ -243,7 +243,11 @@ Think of the library as the middleman that can recognize certain code names or c
 
 # I/O, Display Interfaces, Keyboard Polling
 
-
+## Keyboard Polling
+### Real-time
+- the user can always type characters, and this displays on-screen immediately
+- ex: notepad, word processor programs, etc.
+- 
 
 
 
