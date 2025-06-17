@@ -252,8 +252,11 @@ Think of the library as the middleman that can recognize certain code names or c
 ### Event-driven
 - wait for an event, such as an enter command, then perform an associated operation
 - screen refreshes only after user input
+- events usually include user actions, sensor outputs, or messages from 
 - ex: console/CLI
-- Note: there are means to support real-time switching in CLI—ex: 
+- *Note: there are means to support real-time switching in CLI—ex: concept of tmux, pip download interface*
+
+
 
 
 
