@@ -248,10 +248,12 @@ Think of the library as the middleman that can recognize certain code names or c
 - the user can always type characters, and this displays on-screen immediately
 - ex: notepad, word processor programs, etc.
 - screen always refreshes even if there's no event/user input
+- ex: games, streaming websites
 ### Event-driven
 - wait for an event, such as an enter command, then perform an associated operation
 - screen refreshes only after user input
-- ex: CLI 
+- ex: console/CLI
+- Note: there are means to support real-time switching in CLI—ex: 
 
 
 
