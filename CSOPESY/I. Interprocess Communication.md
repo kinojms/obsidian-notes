@@ -2,6 +2,8 @@
 Facilitated by the OS
 
 Cooperating process - shares data with other processes
+- enables computational speedup
+- allows for modularity
 
 Independent - never interacts with another process
 
@@ -12,6 +14,7 @@ Modularity - especially in Linux, a program should only do one thing (specialize
 Convenience
 
 ## Shared memory
+- allows memory space to be s
 - kind of hard to do this
 - can only be written by one process at a time
 - dev has to implement some kind of process synchronization
@@ -37,7 +40,7 @@ unbounded:
 bounded:
 - producer must wait till all consumers are full
 
-## Full Buffer
+### Full Buffer
 - just doing a counting of how much data you have in your allocated buffer
 	- typically we have a counter for this
 	- if there is something in your buffer, we add, etc.
