@@ -101,8 +101,8 @@ Products can just be a combination of the following resources: **Security, Netwo
 - but some are mostly advantages of virtualization
 
 ## Trade capital expense for variable expense
-- capex - initial payment; one time big time 	
-- opex - recurring costs (rent, utility, etc.)
+- high capex - initial payment; one time big time 	
+- low opex - recurring costs (rent, utility, etc.)
 - data center investment based on forecast
 - pay only for the amount you consume
 - if you KNOW its worth it, then a high capital would be better
