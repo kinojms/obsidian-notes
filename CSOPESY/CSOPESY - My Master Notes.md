@@ -192,7 +192,7 @@ The figure above shows how a typical compiled C program is executed in a commerc
 
 Think of the library as the middleman that can recognize certain code names or commands (functions). When they hear a keyword or command from a potential buyer, they call their supplier, tell them a code for a certain type of product (system calls), then delivers this back to the buyer (return value). 
 
-Note: `conio`
+Note: `conio.h` provides `_kbhit()` <- this is an interrupt
 
 *In our OS emulator:*
 - C program -> emulated process with list of commands
