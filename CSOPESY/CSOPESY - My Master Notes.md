@@ -104,10 +104,12 @@ int main() {
 1. *Bootstrap:*
 	- perform **low-level initialization** (hardware setup, memory initialization, etc.)
 	- **load the kernel** into memory and start executing it
+	- **start system services**
 	- ex: Perform hardware initialization
 	- **Chinese Supervisor wakes up and starts the factory**
 2. *Kernel initialization:*
 	- **initialize data structs** (process table, file system, etc.)
+	- **immediate mode**
 	- set up **interrupt handlers** and **device drivers**
 	- initialize **memory management** and **scheduling algorithms**
 	- ex: initialize process table and memory manager (memory allocation algo, demand paging)
