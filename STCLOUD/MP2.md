@@ -39,4 +39,5 @@ Since they are unsure of a lot of things, the College would like to know the fol
 		- (4) Standard Reserved Instance a reservation term of 3 years and all upfront payments.
 		- *Note that all reservation options may not be available for all providers (AURI, PURI, NURI) so use only if applicable.*
 # Task
-To support fh
+To support the College by creating a **documentation** (max of 3 pages) with the following information:
+1. 1 page discussing the desktop computer and cloud machine specifications. Also, discuss the similarity and differences (if any) of the machines used as reference. Remember to include the link of the s
