@@ -15,3 +15,5 @@ Part of their proposal is to draft a cost estimate of purchasing and maintaining
 
 // Compare the cost of traditional vs cloud 
 
+Since they are unsure of a lot of things, the College would like to know the following information:
+1. Cost of purchasing and maintaining a physical machine for both CapEx and OpE
