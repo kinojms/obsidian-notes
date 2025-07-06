@@ -8,5 +8,9 @@ The CCS department of DLSU spearheaded a program to provide computational and st
 
 The computational and storage considerations of the College is as follows:
 - **CPU** - either a i5 or i7 processor with **8 to 16 cores**
-- **Memory** - either 16GB or 32GB
-- **Storage** - either 128GB or 256GB SSD or 512GB or 1TB HDD
+- **Memory** - either **16GB or 32GB**
+- **Storage** - either **128GB or 256GB SSD** or **512GB or 1TB HDD**
+
+Part of their proposal is to draft a cost estimate of purchasing and maintaining a physical device compared to availing a cloud service.
+
+// Compare the cost of traditional vs cloud 
