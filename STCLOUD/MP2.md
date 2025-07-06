@@ -28,4 +28,12 @@ Since they are unsure of a lot of things, the College would like to know the fol
 		- have two (2) general scenarios:
 			1. have the machine run 24/7
 			2. run only from 8AM to 5PM daily
-		- remember to choose a region that is **close** to the intended user or that would have the **least** cost
+		- remember to choose a region that is **close** to the intended user or that would have the **least** cost (cite reason for your choice in the documentation)
+	- For each of the defined scenarios, compute for the estimate when using the following:
+		- (1) On-Demand Instances;  
+(2) Standard Reserved Instance a reservation term of 1 year and no upfront payments;  
+(3) Standard Reserved Instance a reservation term of 1 year and partial upfront payments;  
+(4) Standard Reserved Instance a reservation term of 1 year and all upfront payments;   
+(2) Standard Reserved Instance a reservation term of 3 years and no upfront payments;  
+(3) Standard Reserved Instance a reservation term of 3 years and partial upfront payments; and  
+(4) Standard Reserved Instance a reservation term of 3 years and all upfront payments.
