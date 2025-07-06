@@ -26,3 +26,6 @@ Since they are unsure of a lot of things, the College would like to know the fol
 	- the cloud machine would generally use server processor cores and such, but for the sake of ease in computation, **abstract those details as just CPU cores along with RAM**
 	- Details of the estimate would be as follows:
 		- have two (2) general scenarios:
+			1. have the machine run 24/7
+			2. run only from 8AM to 5PM daily
+		- remember to choose a region that is **close** to the intended user or that would have the **least** cost
