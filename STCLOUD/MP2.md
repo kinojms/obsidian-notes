@@ -6,4 +6,7 @@ The CCS department of DLSU spearheaded a program to provide computational and st
 1. Purchasing a physical machine and deploying it as a **traditional** infrastructure
 2. Availing services on the **cloud**, particularly with AWS, Azure, or Google Cloud as a possible public cloud provider
 
-The computational and storage considerations of the Colle
+The computational and storage considerations of the College is as follows:
+- **CPU** - either a i5 or i7 processor with **8 to 16 cores**
+- **Memory** - either 16GB or 32GB
+- **Storage** - either 128GB or 256GB SSD or 512GB or 1TB HDD
