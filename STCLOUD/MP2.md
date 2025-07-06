@@ -17,4 +17,4 @@ Part of their proposal is to draft a cost estimate of purchasing and maintaining
 
 Since they are unsure of a lot of things, the College would like to know the following information:
 1. **Cost of purchasing and maintaining a physical machine** for both *CapEx* and *OpEx*
-	- look for a Desktop Computer (no need for I/O and peripherals) that is within the identified considerations from 
+	- look for a Desktop Computer (no need for I/O and peripherals) that is within the identified considerations from https://villman.com/Category/Desktop-PCs or https://asianic.com.ph/product_list/desktops 
