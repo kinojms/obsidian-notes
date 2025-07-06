@@ -40,4 +40,4 @@ Since they are unsure of a lot of things, the College would like to know the fol
 		- *Note that all reservation options may not be available for all providers (AURI, PURI, NURI) so use only if applicable.*
 # Task
 To support the College by creating a **documentation** (max of 3 pages) with the following information:
-1. 1 page discussing the desktop computer and cloud machine specifications. Also, discuss the similarity and differences (if any) of the machines used as reference. Remember to include the link of the s
+1. 1 page discussing the desktop computer and cloud machine specifications. Also, discuss the similarity and differences (if any) of the machines used as reference. Remember to include the link of the specific desktop computer that you would be referencing and a screenshot containing its brief description, technical specifications, and price. Finally, the specifications of the different cloud machines from the 3 identified cloud service providers. Use a table to show the details of all 4 machines
