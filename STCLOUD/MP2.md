@@ -14,3 +14,4 @@ The computational and storage considerations of the College is as follows:
 Part of their proposal is to draft a cost estimate of purchasing and maintaining a physical device compared to availing a cloud service.
 
 // Compare the cost of traditional vs cloud 
+
