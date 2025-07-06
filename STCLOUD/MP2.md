@@ -18,5 +18,7 @@ Part of their proposal is to draft a cost estimate of purchasing and maintaining
 Since they are unsure of a lot of things, the College would like to know the following information:
 1. **Cost of purchasing and maintaining a physical machine** for both *CapEx* and *OpEx*
 	- look for a Desktop Computer (no need for I/O and peripherals) that is within the identified considerations from https://villman.com/Category/Desktop-PCs or https://asianic.com.ph/product_list/desktops
-	- you may include electricity only as part of the OpEx, as we can assume that manpower and Internet connectivity is already available in the datacenter
+	- you may **include electricity only as part of the OpEx**, as we can assume that manpower and Internet connectivity is already available in the datacenter
 	- the **cost estimate** should also include the electricity bill *during* operation
+		- _*The cost of the electricity bill may be estimated from the Wattage or VA of the Desktop Computer's Power Supply following 12kWh cost. Use the following electricity bill calculator for your estimates:_ [_https://www.rapidtables.com/calc/electric/electricity-calculator.html_](https://www.rapidtables.com/calc/electric/electricity-calculator.html)
+2. **Cost of availing a cloud service, with AWS, Azure, and/or Google Cloud**
