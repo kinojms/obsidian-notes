@@ -56,4 +56,11 @@ AWS Trusted Advisor, AWS Shield, Amazon Chime
 # AWS Identity and Access Management (IAM)
 - a directory service - allows to control users, group, roles, policies
 	- group - entity where users are mapped to
-	- roles - tempor
+	- roles - **temporary**
+- use IAM to manage access to AWS resources
+	- a resources is an entity in an AWS account that you can work with
+	- ex resources: an Amazon EC2 instance or an Amazon S3 bucket
+- you can control who can terminate Amazon EC2 instances for example
+- define fine-grained access rights
+
+## IA
