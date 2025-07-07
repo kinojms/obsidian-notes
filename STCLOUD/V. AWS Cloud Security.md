@@ -125,4 +125,5 @@ Best practice: Do not use the AWS account root user except when necessary
 - ensures that accounts comply with access control guidelines
 - SCPs are similar to IAM permissions policies
 	- they use similar syntax
-	- an SCP neve
+	- an SCP never grants permissions
+	- 
