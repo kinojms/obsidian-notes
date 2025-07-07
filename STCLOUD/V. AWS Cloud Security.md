@@ -9,7 +9,10 @@
 	- controlled, need-based access
 - hardware and software infrastructure
 	- storage decommissioning, host operating system (OS) access logging, and auditing
+	- if the server's OS breaks down, that's not your responsibility
 - network infrastructure
 	- intrusion detection
 - virtualization infrastructure
 	- instance isolation
+
+*Data Carving - recovering "deleted" data*
