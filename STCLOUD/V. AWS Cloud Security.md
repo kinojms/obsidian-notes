@@ -16,3 +16,9 @@
 	- instance isolation
 
 *Data Carving - recovering "deleted" data*
+
+## Customer Responsibility: Security in the cloud
+- Amazon Elastic Compute Cloud (Amazon EC2) isntance OS
+	- including patching, maintenance
+- applications
+	- pas
