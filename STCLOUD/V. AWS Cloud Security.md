@@ -119,4 +119,10 @@ Best practice: Do not use the AWS account root user except when necessary
 - Security Features:
 	- Group AWS Accounts into organizational units (OUs) and attach different access policies to each OU
 	- Integration and support for IAM
-		- permissions to a user are the intersection of what is allowed by AWS Org
+		- permissions to a user are the intersection of what is allowed by AWS Organizations and what is granted by IAM in that account
+### AWS Organizations: Service Control Policies
+- Service Control Policies (SCPs) offer centralized control over accounts
+- ensures that accounts comply with access control guidelines
+- SCPs are similar to IAM permissions policies
+	- they use similar syntax
+	- an SCP neve
