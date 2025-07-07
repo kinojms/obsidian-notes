@@ -52,3 +52,8 @@ AWS Lambda, Amazon Relational Database Service, AWS Elastic Beanstalk (automates
 
 SaaS Examples:
 AWS Trusted Advisor, AWS Shield, Amazon Chime
+
+# AWS Identity and Access Management (IAM)
+- a directory service - allows to control users, group, roles, policies
+	- group - entity where users are mapped to
+	- roles - tempor
