@@ -4,4 +4,4 @@
 
 ![[Pasted image 20250707130341.png]]
 
-- 
+## AWS Responsibility: Security of the 
