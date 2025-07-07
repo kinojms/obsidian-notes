@@ -126,4 +126,9 @@ Best practice: Do not use the AWS account root user except when necessary
 - SCPs are similar to IAM permissions policies
 	- they use similar syntax
 	- an SCP never grants permissions
-	- 
+	- instead, SCPs specify the maximum
+### AWS Key Management Services
+- helps manage keys for encryption, security, etc.
+- integrates with CloudTrail to log all key usage
+- uses hardwar
+
