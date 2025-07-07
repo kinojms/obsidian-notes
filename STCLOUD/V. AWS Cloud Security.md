@@ -110,4 +110,5 @@ Best practice: Do not use the AWS account root user except when necessary
 ## Securing new AWS Account: Account Root user
 1. Stop using the account root user
 2. Enable multi-factor authentication (MFA)
-3. 
+3. Use AWS CloudTrail for logging and to track user activity on your account
+4. Enable a billing report, such as the AWS Cost and Usage Report
