@@ -130,5 +130,8 @@ Best practice: Do not use the AWS account root user except when necessary
 ### AWS Key Management Services
 - helps manage keys for encryption, security, etc.
 - integrates with CloudTrail to log all key usage
-- uses hardwar
+### Amazon Cognito
+- adds user sign-up, sign-in, and access control to your web and mobile applications
+- scales to millions of users
+- supports sign-in with social identity providers, like Facebook, Google, and Amazon; and enterprise identity providers, such as Microsoft Active Directory via Secr
 
