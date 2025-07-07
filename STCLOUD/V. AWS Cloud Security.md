@@ -114,4 +114,9 @@ Best practice: Do not use the AWS account root user except when necessary
 4. Enable a billing report, such as the AWS Cost and Usage Report
 # Securing Accounts
 ## AWS Organizations
-- enables you to consolidat
+- enables you to consolidate multiple AWS accounts so that you centrally manage them
+- setting up groups - cause they're easier to manage
+- Security Features:
+	- Group AWS Accounts into organizational units (OUs) and attach different access policies to each OU
+	- Integration and support for IAM
+		- permissions to a user are the intersection of what is allowed by AWS Org
