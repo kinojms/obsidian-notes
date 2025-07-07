@@ -21,4 +21,12 @@
 - Amazon Elastic Compute Cloud (Amazon EC2) isntance OS
 	- including patching, maintenance
 - applications
-	- pas
+	- passwords, role-based access, etc.
+- security group configurations
+- OS or host-based firewalls
+	- including intrusion detection or prevention systems
+- network configurations
+- // recheck ppt
+
+### Service Characteristics and Security Responsibility
+I
