@@ -138,5 +138,6 @@ Best practice: Do not use the AWS account root user except when necessary
 - DDoS protection
 - since we're using a public cloud, a ton of attacks tend to happen
 - protects your services from DDoS attacks
-- 
+- intervention system
+# Secura
 
