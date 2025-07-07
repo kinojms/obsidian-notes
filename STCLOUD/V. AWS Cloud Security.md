@@ -106,3 +106,8 @@ Best practice: Do not use the AWS account root user except when necessary
 - identity federation
 - secure access for applications
 - granular permissions
+
+## Securing new AWS Account: Account Root user
+1. Stop using the account root user
+2. Enable multi-factor authentication (MFA)
+3. 
