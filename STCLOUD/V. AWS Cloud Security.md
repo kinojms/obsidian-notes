@@ -72,9 +72,9 @@ AWS Trusted Advisor, AWS Shield, Amazon Chime
 ## Authorization: What can you do?
 - a user, group, or role are given policies (what they can do), then they are given access to selected resources (EC2 instances, S3 buckets, etc.)
 - assign permissions by creating an IAM policy
-- permissions determine which resources and operations are allowed:
+- permissions determine **which resources and operations** are allowed:
 	- all permissions are implicitly denied by default
 	- if something is explicitly denied, it is never allowed
-- Best practice: follow the principle of least privilege (give users the LEAST amount of permissions to do)
+- best practice: follow the **principle of least privilege** (give users the LEAST amount of permissions to do their job)
 
-Note: the scope of IAM service configurations is global. Settings apply across all AWS Regions
+*Note: the scope of IAM service configurations is global. Settings apply across all AWS Regions*
