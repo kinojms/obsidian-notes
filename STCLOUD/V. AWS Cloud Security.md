@@ -4,4 +4,12 @@
 
 ![[Pasted image 20250707130341.png]]
 
-## AWS Responsibility: Security of the 
+## AWS Responsibility: Security of the cloud
+- physical security of data centers
+	- controlled, need-based access
+- hardware and software infrastructure
+	- storage decommissioning, host operating system (OS) access logging, and auditing
+- network infrastructure
+	- intrusion detection
+- virtualization infrastructure
+	- instance isolation
