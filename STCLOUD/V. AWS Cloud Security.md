@@ -78,3 +78,11 @@ AWS Trusted Advisor, AWS Shield, Amazon Chime
 - best practice: follow the **principle of least privilege** (give users the LEAST amount of permissions to do their job)
 
 *Note: the scope of IAM service configurations is global. Settings apply across all AWS Regions*
+
+## IAM Permissions
+How does IAM determine permissions?
+1. Is the permission explicitly denied?
+	1. Yes: Deny
+	2. No: Is the permission explicitly allowed?
+		1. Yes: Allow
+		2. N
