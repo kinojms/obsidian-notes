@@ -139,5 +139,10 @@ Best practice: Do not use the AWS account root user except when necessary
 - since we're using a public cloud, a ton of attacks tend to happen
 - protects your services from DDoS attacks
 - intervention system
-# Secura
+# Securing data on AWS
+Data States
+1. rest - HDD/SSD storage
+	- to protect, use encryption
+2. transit - data being sent to the network
+	- protected using a Transport Layer Security (TLS)
 
