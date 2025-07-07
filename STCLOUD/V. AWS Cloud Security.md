@@ -147,4 +147,4 @@ Data States
 	- protected using a Transport Layer Security (TLS)
 3. memory - data being processed
 
-If you ever used cracked software, 
+
