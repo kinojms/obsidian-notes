@@ -67,4 +67,7 @@ AWS Trusted Advisor, AWS Shield, Amazon Chime
 1. IAM User - a person or application (calls an API) that can authenticate with an AWS account
 2. IAM Group - a collection of IAM users that are granted identical authorization
 3. IAM Policy - the document that defines which resources can be accessed and the level of access to each resources
-4. IAM Role - to grant a set of temporary 
+4. IAM Role - to grant a set of permissions for making AWS service requests (temporary)
+
+## Authorization: What can you do?
+- a user, group, or role are given policies (what they can do)
