@@ -37,9 +37,11 @@ Platform as a service (PaaS)
 - customer does not need to manage the underlying infrastructure
 - AWS handles the OS, database patching, firewall configuration, and disaster recovery
 - customer can focus on managing code or data
-SaaS 
+Software as a Service (SaaS)
 - software is centrally hosted
-- l
+- licensed on a subscription model or pay-as-you-go basis
+- services are typically accessed via web browser, mobile app, or application programming interface (API)
+- customers do not need to manage the infrastructure that supports the service
 
 Sample Services Managed by Customer:
 Amazon EC2, Amazon Elastic Block Store, Amazon Virtual Private Cloud
