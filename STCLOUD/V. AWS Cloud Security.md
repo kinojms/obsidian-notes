@@ -133,5 +133,10 @@ Best practice: Do not use the AWS account root user except when necessary
 ### Amazon Cognito
 - adds user sign-up, sign-in, and access control to your web and mobile applications
 - scales to millions of users
-- supports sign-in with social identity providers, like Facebook, Google, and Amazon; and enterprise identity providers, such as Microsoft Active Directory via Secr
+- supports sign-in with social identity providers, like Facebook, Google, and Amazon; and enterprise identity providers, such as Microsoft Active Directory via Security Assertion Markup Language (SAML) 2.0
+### AWS Shield
+- DDoS protection
+- since we're using a public cloud, a ton of attacks tend to happen
+- protects your services from DDoS attacks
+- 
 
