@@ -42,9 +42,13 @@ Software as a Service (SaaS)
 - licensed on a subscription model or pay-as-you-go basis
 - services are typically accessed via web browser, mobile app, or application programming interface (API)
 - customers do not need to manage the infrastructure that supports the service
+- the one who sets up the service is the one in control (thus is responsible for any issues)
 
 Sample Services Managed by Customer:
 Amazon EC2, Amazon Elastic Block Store, Amazon Virtual Private Cloud
 
 Sample Services Managed by AWS:
 AWS Lambda, Amazon Relational Database Service, AWS Elastic Beanstalk (automates deployment of resources)
+
+SaaS Examples:
+AWS Trusted Advisor, AWS Shield, Amazon Chime
