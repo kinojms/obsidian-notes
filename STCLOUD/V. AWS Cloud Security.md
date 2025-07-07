@@ -81,8 +81,8 @@ AWS Trusted Advisor, AWS Shield, Amazon Chime
 
 ## IAM Permissions
 How does IAM determine permissions?
-1. Is the permission explicitly denied?
+1. Is the permission explicitly *denied*?
 	1. Yes: Deny
-	2. No: Is the permission explicitly allowed?
+	2. No: Is the permission explicitly *allowed*?
 		1. Yes: Allow
-		2. N
+		2. No: Deny (Implicitly Deny)
