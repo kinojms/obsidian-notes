@@ -86,3 +86,6 @@ How does IAM determine permissions?
 	2. No: Is the permission explicitly *allowed*?
 		1. Yes: Allow
 		2. No: Deny (Implicitly Deny)
+
+# Securing a new AWS Account
+Best practice: Do not use the AWS account root user except when e
