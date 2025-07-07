@@ -88,4 +88,8 @@ How does IAM determine permissions?
 		2. No: Deny (Implicitly Deny)
 
 # Securing a new AWS Account
-Best practice: Do not use the AWS account root user except when e
+Best practice: Do not use the AWS account root user except when necessary
+- access to the account root user requires logging in with the email address (and password) that you used to create the account
+- example actions that can only be done with the account root user:
+	- update the account root user password
+	- change 
