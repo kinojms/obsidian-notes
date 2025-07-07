@@ -42,4 +42,4 @@ Sample Services Managed by Customer:
 Amazon EC2, Amazon Elastic Block Store, Amazon Virtual Private Cloud
 
 Sample Services Managed by AWS:
-AWS Lambd
+AWS Lambda, Amazon Relational Database Service, AWS Elastic Beanstalk (automates deployment of resources)
