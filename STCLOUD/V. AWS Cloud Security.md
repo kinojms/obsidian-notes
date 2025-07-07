@@ -29,4 +29,10 @@
 - // recheck ppt
 
 ### Service Characteristics and Security Responsibility
-I
+Infrastructure as a service (IaaS)
+- more flexibility over configuring networking and storage settings
+- customer is responsible for managing more aspects of the security
+- customer configures the access controls
+Platform as a service (PaaS)
+- customer does not need to manage the underlying infrastructure
+- 
