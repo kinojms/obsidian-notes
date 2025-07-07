@@ -146,5 +146,7 @@ Data States
 2. transit - data being sent to the network
 	- protected using a Transport Layer Security (TLS)
 3. memory - data being processed
+	- encrypt to protect
+
 
 
