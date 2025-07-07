@@ -35,4 +35,11 @@ Infrastructure as a service (IaaS)
 - customer configures the access controls
 Platform as a service (PaaS)
 - customer does not need to manage the underlying infrastructure
-- 
+- AWS handles the OS, database patching, firewall configuration, and disaster recovery
+- customer can focus on managing code or data
+
+Sample Services Managed by Customer:
+Amazon EC2, Amazon Elastic Block Store, Amazon Virtual Private Cloud
+
+Sample Services Managed by AWS:
+AWS Lambd
