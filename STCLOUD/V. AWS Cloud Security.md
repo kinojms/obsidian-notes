@@ -90,6 +90,8 @@ How does IAM determine permissions?
 # Securing a new AWS Account
 ## AWS Account Root User Access vs IAM Access
 Best practice: Do not use the AWS account root user except when necessary
+- create a new account and set that account as admin
+- super admin users cannot touch the root; only itself and any other users below it
 - access to the account root user requires logging in with the email address (and password) that you used to create the account
 - example actions that can only be done with the account root user:
 	- update the account root user password
@@ -97,4 +99,10 @@ Best practice: Do not use the AWS account root user except when necessary
 	- restore an IAM user's permissions
 	- change account settings (ex: contact information, allowed regions, etc.)
 ### Account Root User
- 
+- privileges cannot be controlled
+- full access to all resources
+### IAM
+- integrates with other AWS services
+- identity federation
+- secure access for applications
+- granular permissions
