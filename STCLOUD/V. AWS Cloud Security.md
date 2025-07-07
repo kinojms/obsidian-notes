@@ -70,4 +70,6 @@ AWS Trusted Advisor, AWS Shield, Amazon Chime
 4. IAM Role - to grant a set of permissions for making AWS service requests (temporary)
 
 ## Authorization: What can you do?
-- a user, group, or role are given policies (what they can do)
+- a user, group, or role are given policies (what they can do), then they are given access to selected resources (EC2 instances, S3 buckets, etc.)
+- assign permissions by creating an IAM policy
+- permissions
