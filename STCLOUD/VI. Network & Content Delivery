@@ -1,0 +1,58 @@
+# Network & Content Delivery
+- IPv4 (32-bit) - less accurate address; decimal in 8-bit value
+- IPv6 (128-bit) - more accurate address; hexadecimal in 4-bit value
+
+## Classless Inter-Domain Routing (CIDR)
+- Network identifier (routing prefix)
+
+##  Open Systems Interconnection (OSI) Model
+- Application: means for an application to access a computer network (HTPPS, FTP, DHCP, LDAP)
+- Presentation: ensures that the application layer can read the data; encryption (ASCI, ICA)
+- Session: enables orderly exchange of data (NetBIOS, RPC)
+- Transport: provides protocols to support host-to-host communication (TCP, UDP)
+- Network: routing and packet forwarding (routers; IP)
+- Data link: transfer data in the same LAN network (hubs and switches; MAC)
+- Physical: transmission and reception of raw bitstreams over a physical medium (1s and 0s)
+
+# Amazon Virtual Private Cloud (VPC) / Networking
+- gives us an isolated version in the cloud
+- users have their own isolated instance
+- gives us control over our virtual networking resources, including:
+	- selection of IP address range
+	- creation of subnets
+	- config of route tables and network gateways
+- enables you to customize the network configuration for your VPC
+- enables you to use multiple layers of security
+
+## VPCs and Subnets
+### VPCs:
+- logically isolated from other VPCs
+- dedicated to your AWS account
+- belongs to a single AWS Region 
+### Subnets:
+- range of IP addresses
+- // two more bullets from PPT
+
+## IP Addressing
+- when you create a VPC, you assign it to an IPv4 CIDR block (range of private IPv4 addresses)
+- cannot change the address range after you create the VPC
+- the largest IPv4 CIDR block size is "/16"
+- the smallest is "/28"
+	- calculation ex: 32 bits - 25 = 7 = 2^7 = 128
+- IPv6 is also supported (with a different block size limit)
+- CIDR block of subnets cannot overlap
+
+*Note: Routers function the same as firewalls*
+
+Ex: x.x.x.x/28 has 16 addresses
+32-28 = 4 = 2^4 = 16
+
+### Public IP Address Types
+#### Public IPv4 address
+- manually assigned thru an **Elastic IP address**
+- automatically assigned through the auto-assign public IP address settings at the subnet level
+#### Elastic IP address
+- associated with an AWS account
+- can be allocated and remapped anytime
+- additional costs might apply 
+- expensive but at least your IP won't change
