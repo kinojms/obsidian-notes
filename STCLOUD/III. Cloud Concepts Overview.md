@@ -10,9 +10,11 @@
 		- capex/opex
 	- hybrid
 - if we say internet, it does not fully reflect the definition of a private cloud
+- is the on demand delivery (not automated) of IT resources via the Internet with a pay-as-you-go pricing
 
 **Infrastructure as Hardware**
 - cloud computing enables (due to virtualization) you to stop thinking of your infrastructure as hardware, and instead think and use it as software
+
 ## Traditional Computing Model
 - infrastructure as hardware
 - hardware solutions:
@@ -20,6 +22,7 @@
 		- cooling, electricity, floorplan, etc.
 	- have a **long hardware procurement cycle**
 	- require you to provision capacity by **guessing** theoretical maximum peaks
+- scales up and down
 
 ## Cloud Computing Model
 - infrastructure as software
@@ -27,6 +30,7 @@
 	- are flexible—on-demand
 	- can change more quickly, easily, and cost-effectively than hardware solutions
 	- eliminate the undifferentiated heavy-lifting tasks
+- scales in and out (horizontal and vertical)
 
 ## Cloud Service Models
 ### IaaS (Infrastructure as a service)
@@ -59,7 +63,7 @@
 - internet, global
 - pay as you go
 - subscription/rental
-- low capex/high opex
+- low capex/high opex (like subscribing to a credit card)
 ### On-premises (Private Cloud)
 - most companies have their own private cloud solutions
 - CCS cloud is an example
@@ -68,6 +72,7 @@
 - high capex/low opex
 	- you own it, you buy the servers. so high capital
 	- low monthly costs for maintaining the servers
+- High CapEx cause you OWN the thing, but tiny/low OpEx
 ### Hybrid
 - startups produce their own servers
 - public + private
