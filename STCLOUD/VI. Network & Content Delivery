@@ -15,9 +15,9 @@
 - Physical: transmission and reception of raw bitstreams over a physical medium (1s and 0s)
 
 # Amazon Virtual Private Cloud (VPC) / Networking
-- gives us an isolated version in the cloud
-- users have their own isolated instance
-- gives us control over our virtual networking resources, including:
+- gives us an **isolated version** in the cloud
+- users have their own **isolated** instance
+- gives us **control over our virtual networking resources**, including:
 	- selection of IP address range
 	- creation of subnets
 	- config of route tables and network gateways
@@ -51,8 +51,37 @@ Ex: x.x.x.x/28 has 16 addresses
 #### Public IPv4 address
 - manually assigned thru an **Elastic IP address**
 - automatically assigned through the auto-assign public IP address settings at the subnet level
+- address can change if you reboot your server or turn it off
+- Instance-based
+- No Public Service
+
 #### Elastic IP address
 - associated with an AWS account
 - can be allocated and remapped anytime
 - additional costs might apply 
 - expensive but at least your IP won't change
+- address is semi-permanent but you pay for a reservation cost if you use it or not
+- Account-based
+- Public Service
+
+#### Routing Tables
+
+## Networks
+### Network ACLs
+- has separate inbound and outbound rules 
+- allows or deny traffic
+- default network ACLs allow all inbound and outbound IPv4 traffic
+- ACLs are stateless
+
+# Amazon Route 53
+- 53 is the port num of DNS
+- a highly available and scalable DNS web service
+
+## Supported Routing
+- simple routing - use in single-server environments
+- weighted round robin routing - assign weights to resource record sets to frequency
+- latency routing - help improve your global apps
+- geolocation routing - route traffic based on location of your users
+- geoproximity routing - route traffic based on location of your resources
+- failover routing - fail over to a backup site
+- multi-value answer routing  - eight health records
