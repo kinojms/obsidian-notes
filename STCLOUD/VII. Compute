@@ -1,1 +1,166 @@
+# Compute Services Overview
+- CPU resources
+- VMs & Containers
+- anything related to processing
+
+##  AWS Compute Services
+- we have many services to support a wide range of needs
+- the same is true for other service providers (Google, Azure, etc.)
+- in cloud, we have many possible users, which needs many use-cases as well
+- AWS offers many compute services:
+	- Ex: Amazon EC2, Elastic Beanstalk, Lambda, Fargate, Elastic Container Registry, Kubernetes, Outposts, Lightsail, Serverless Application Repository, VMware Cloud on AWS, Batch
+- services are **options** for you to choose from
+
+*Note: Serverless means you don't manage the server, but technically it still has a server hosting it*
+*Containers are OS-based; they share the kernel of the host OS*
+
+### Choosing the optimal compute services
+- understand the available compute options
+- the optimal compute service will depend on your use case
+- there are many services to choose from, so choose the option that best fits your needs
+
+## Amazon EC2
+- most basic ones
+- virtual machines (closest to traditional IT services)
+- highest flexibility
+- can solve most possible use case
+- drawback is that you should have the skills to maximize this services
+- have full control but also have more responsibilities
+- emphasis on speed & agility
+- controls traffic (security groups)
+
+### Instance Type Naming
+
+**t3.large**
+- T is the family name
+- 3 is the generation number
+- Large is the size
+
+## Instance Types
+General - broad, default choice, generic use-case 
+Compute - high performance, cpu-heavy, non-gpu compute 
+Memory - in-memory databases, big data, in-memory DB
+Accelerated - machine learning, floating point linear algebra graphics
+Storage - distributed file systems, large storage, fast I/O or IOPS (Input/Output per second)
+
+## User Data Script (optional)
+- you can run scripts on create sch as download apache 4 & git pull your web code (for example)
+- to customize the runtime environment of your instance
+- script runs the first time the instance starts
+	- good for initial setup/initialization
+
+## Amazon EC2 Storage Options
+
+### Elastic Block Store (Amazon EBS)
+- durable, block-level storage volumes
+- you can stop the instance and start it again, and the data will still be there 
+- non-volatile but with payment
+- separate cost from your VM
+### EC2 Instance Store
+- part of a VM with no added cost
+- ephemeral storage is provided on disks that are attached to the host computer where the EC2 instance is running
+- if the instance stops, data stored there is deleted
+- ephemeral is good for tests since the data is saved temporarily
+
+*There are many storage options to choose from, hopefully there is one that best suits your needs*
+
+*Web GUI - Management Console*
+
+## Amazon EC2 Pricing Models
+### On-Demand Instances
+- pay by hour
+- no long-term commitments
+- eligible for the AWS free tier
+- stop guessing capacity but very expensive
+### Dedicated Hosts
+- a physical server with EC2 instance capacity fully dedicated to your use
+- for compliance; rent the whole host server
+### Dedicated Instances
+- instances that run in a VPC on hardware that is dedicated to a single customer
+- good for isolation
+### Reserved Instances
+- full, partial, or no upfront payment for instance you reserve
+- discount on hourly charge for that instance
+- 1 year or 3 year term
+### Scheduled Reserved Instances 
+- purchases a capacity reservation that is always available on a recurring schedule you specify
+- 1-year term
+	- reservation but with schedules
+	- if you don't need 24/7
+### Per second billing
+- available for on-demand instances, reserved instances, and spot instances that run Amazon Linux or Ubuntu
+### Spot Instances
+- instances run as long as they are available and your bid is above the instance price
+- they can be interrupted by AWS with a 2-minute notification
+- interruption options include terminated, stopped or hibernated
+- prices can be significantly less expensive compared to on-demand instances
+- good choice when you have flexibility in when your applications can run
+- if you need high compute with the lowest cost and you are not in a hurry
+
+## Pricing Models: Benefits
+1. **On-demand**
+- low cost and flexibility
+- good for short term, but becomes expensive long term
+- for auto scaling
+- spiky workloads
+2. **Spot instances**
+- cheapest but not reliable
+- time insensitive workloads
+- large scale, dynamic workload
+3. **Reserved Instances**
+- long term
+- good for constant use or baseline resource needs
+- predictability ensures compute capacity is available when needed
+- steady-state
+4. **Dedicated Hosts**
+- save money on licensing costs
+- help meet compliance and regulatory requirements
+- rent the whole physical server
+- no "noisy neighbor" since whole server is dedicated
+### Four Pillars of Cost Optimization
+1. right size
+2. increase elasticity
+3. optimal pricing model
+4. optimize storage choices
+
+#### Right Size
+- determine your baseline
+	-	how much RAM, storage, etc.
+	-	monitor the resources you need
+- means resources are NOT wasted and the cost is manageable
+- use Amazon CloudWatch (monitoring) metrics
+- determine the right size, then reserve (since reservation is cheaper)
+
+#### Increase Elasticity
+- scaling will support the changes or sudden resource spikes
+- stop or hibernate instances that are not actively in use
+- use **automatic scaling** to match needs based on usage
+
+####  Optimal Pricing Model
+- you can use multiple pricing models at the same time
+- consider your usage patterns
+- optimize and combine purchase types
+- use on-demand instance and spot instances for variable workloads
+
+#### Optimize Storage Choices
+- storage is NOT cheap
+- reduce costs while maintaining storage performance and availability
+- resize EBS volumes
+- delete EBS snapshots that are no longer needed
+- identify the most appropriate destination for specific types of data
+
+*Note: It's a continuous process: Measure, Monitor, and Improve*
+
+## Containers
+- OS virtualization
+- typical use-cases focus on app deployments
+- benefits:
+	- good for softwares
+	- testing and production; for packaging and provisioning(?)
+	- software runs the same in different environments
+	- faster to launch and stop or terminate than VMs
+
+*Dockers are like Hypervisors Pro Max (Dockers are Hypervisors that can do more) for Containers. They're the open-source product that creates Containers*
+
+
 
