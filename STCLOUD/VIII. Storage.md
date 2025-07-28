@@ -41,4 +41,6 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 - non root disk
 ## Amazon S3 Glacier
 - also an object storage, but the difference is that this is more for **long-term**
-- specifically called an **archival** storage which uses magnetic tapes (like a ca)
+- specifically called an **archival** storage which uses magnetic tapes (like a cassette)
+	- functions like a long tape (like a turing machine) that has a reader which reads the middle part of the strip as it rotates
+- cheapest price per GB
