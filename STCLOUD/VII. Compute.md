@@ -28,9 +28,12 @@
 - **for consistency**
 ### Serverless
 - PaaS - the only thing you have to do is choose which Programming Language you want, input your code, and focus on coding
-- there is still a server, but YOU don't manage the server
+- **there is still a server, but YOU don't manage the server**
 - you can do API calls and whatnot—that's it
-- cheap in terms of cost since the cloud is the one that manages the whole thing
+- cheap in terms of cost since the **cloud is the one that manages the whole thing**
+- not that hard to learn—pretty easy to use
+	- does have a learning curve, but is generally easy once you get the hang of it
+- best option if you only want to run/test a code and don't need to run 
 
 *Note: Serverless means you don't manage the server, but technically it still has a server hosting it*
 *Containers are OS-based; they share the kernel of the host OS*
