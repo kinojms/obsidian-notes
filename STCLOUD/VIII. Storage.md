@@ -47,4 +47,9 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 - cheapest price per GB
 - not instant retrieval
 - think of it like going back to school after years post-graduation just to request for a copy of your Form 137
+
+# Databases
+## Amazon Relational Database Services
+- RDS, PaaS, Managed SQL DB
+- managed service - the cloud manages the service FOR you (like configurations) so you can focus on your data
 - 
