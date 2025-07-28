@@ -39,4 +39,6 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 - high scale storage
 - file sharing
 - non root disk
-- 
+## Amazon S3 Glacier
+- also an object storage, but the difference is that this is more for **long-term**
+- specifically called an **archival** storage which uses magnetic tapes (like a ca)
