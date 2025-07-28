@@ -48,7 +48,7 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 - not instant retrieval
 - think of it like going back to school after years post-graduation just to request for a copy of your Form 137
 
-# Databases
+# Database Options in the Cloud
 ## Amazon Relational Database Services
 - Relational Database (RDS), PaaS, Managed SQL DB
 - managed service - the cloud manages the service FOR you (like configurations) so you can focus on your data
@@ -78,8 +78,10 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 - DB -> enterprise
 - SaaS -> SQL
 - compatible with mySQL and PostgreSQL
+### Different use cases for DBs
+- SQL is great for Vertical Scaling
+- Non-SQL is great for Horizontal Scaling
+- Data Warehousing is great for large volumes of data
+- Enterprise SQL is great for High-speed Transaction
 
-*SQL is great for Vertical Scaling*
-*Non-SQL is great for Horizontal Scaling*
-*Data Warehousing is g*
-*Enterprise SQL is great for High-speed Transaction *
+# IAM ()
