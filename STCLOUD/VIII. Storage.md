@@ -46,4 +46,5 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 	- you can't skip here, you have to rewind it if you want to go back to a certain part
 - cheapest price per GB
 - not instant retrieval
+- think of it like going back to school after years post-graduation just to request for a copy of your Form 137
 - 
