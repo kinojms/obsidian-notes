@@ -68,4 +68,14 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 - used for big data (OLAP, analytical processing, big data analysis)
 - large volume
 - analytics
-- 
+
+### Amazon Aurora
+- Enterprise SQL
+- does distributed querying 
+- SQL
+- high performance
+- clustering
+- aggregation
+- DB -> enterprise
+- SaaS -> SQL
+- compatible with mySQL and PostgreSQL
