@@ -54,6 +54,8 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 - managed service - the cloud manages the service FOR you (like configurations) so you can focus on your data
 - SQL-type databases are great for vertical scale
 - vertical scale - can handle many entries but same columns
+- fixed kind of DB
 - *if you are confident in your skills in handling databases, it might be better to opt for VMs instead*
 ## Amazon DynamoDB
+- Non-SQL
 - 
