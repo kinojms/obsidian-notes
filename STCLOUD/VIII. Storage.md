@@ -25,3 +25,8 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 - great for static files (images, videos, audio)
 - each file is an object
 - Ex: Google Drive
+- you can't put an OS in here
+## Amazon EBS
+- block storage
+- treats a file as a series of chunks or clusters
+- VM/CT
