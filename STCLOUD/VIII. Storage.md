@@ -31,3 +31,4 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 - treats a file as a series of chunks or clusters
 	- a group of many blocks
 - VM/CT
+- hard drives, SSDs use block storage
