@@ -10,6 +10,7 @@
 - AWS offers many compute services:
 	- Ex: Amazon EC2, Elastic Beanstalk, Lambda, Fargate, Elastic Container Registry, Kubernetes, Outposts, Lightsail, Serverless Application Repository, VMware Cloud on AWS, Batch
 - services are **options** for you to choose from
+- where computation happens
 
 *Note: Serverless means you don't manage the server, but technically it still has a server hosting it*
 *Containers are OS-based; they share the kernel of the host OS*

@@ -1,10 +1,10 @@
+**Tenancy** - having a separate instance even with similar IPs
 # Network & Content Delivery
 - IPv4 (32-bit) - less accurate address; decimal in 8-bit value
 - IPv6 (128-bit) - more accurate address; hexadecimal in 4-bit value
 
 ## Classless Inter-Domain Routing (CIDR)
 - Network identifier (routing prefix)
-
 ##  Open Systems Interconnection (OSI) Model
 - Application: means for an application to access a computer network (HTPPS, FTP, DHCP, LDAP)
 - Presentation: ensures that the application layer can read the data; encryption (ASCI, ICA)
