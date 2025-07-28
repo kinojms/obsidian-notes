@@ -16,8 +16,9 @@
 ### Virtual Machines (VM)
 - high control & responsibility
 - closest ones to represent physical computers
-### CTs
-
+- OS, patching, backups, anything OS and network-related can be configured
+### Containers (CT)
+- OS 
 
 *Note: Serverless means you don't manage the server, but technically it still has a server hosting it*
 *Containers are OS-based; they share the kernel of the host OS*
