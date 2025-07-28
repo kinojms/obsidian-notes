@@ -52,8 +52,8 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 ## Amazon Relational Database Services
 - Relational Database (RDS), PaaS, Managed SQL DB
 - managed service - the cloud manages the service FOR you (like configurations) so you can focus on your data
-- SQL 
-- vertical scale - many entries, same columns
+- SQL-type databases are great for vertical scale
+- vertical scale - can handle many entries but same columns
 - *if you are confident in your skills in handling databases, it might be better to opt for VMs instead*
 ## Amazon DynamoDB
 - 
