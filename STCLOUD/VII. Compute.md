@@ -25,6 +25,11 @@
 - **has less control and flexibility**
 - a type of virtualization—**focus on software or app**
 	- a container set up as an Apache server or a SQL database, etc.
+- **for consistency**
+### Serverless
+- PaaS - the only thing you have to do is choose which Programming Language 
+- there is still a server, but YOU don't manage the server
+- you can focus on your code
 
 *Note: Serverless means you don't manage the server, but technically it still has a server hosting it*
 *Containers are OS-based; they share the kernel of the host OS*
