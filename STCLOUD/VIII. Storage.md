@@ -21,7 +21,7 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 
 ## Amazon S3
 - object storage
-	- mod
+	- modifies the whole thing
 - the entire entity is considered an object
 - great for static files (images, videos, audio)
 - each file is an object
@@ -31,6 +31,7 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 - block storage
 - treats a file as a series of chunks or clusters
 	- a group of many blocks
+	- modifies just one "block" in the storage, not the whole thing
 - VM/CT
 - hard drives, SSDs use block storage
 - great for dynamic files (those that constantly change)
