@@ -27,9 +27,10 @@
 	- a container set up as an Apache server or a SQL database, etc.
 - **for consistency**
 ### Serverless
-- PaaS - the only thing you have to do is choose which Programming Language 
+- PaaS - the only thing you have to do is choose which Programming Language you want, input your code, and focus on coding
 - there is still a server, but YOU don't manage the server
-- you can focus on your code
+- you can do API calls and whatnot—that's it
+- cheap in terms of cost since the cloud is the one that manages the whole thing
 
 *Note: Serverless means you don't manage the server, but technically it still has a server hosting it*
 *Containers are OS-based; they share the kernel of the host OS*
