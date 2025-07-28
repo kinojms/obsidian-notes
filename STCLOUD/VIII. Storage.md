@@ -64,4 +64,8 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 - horizontal scale - entries have different columns
 
 ### Amazon Redshift
-- Data Wa
+- Data Warehousing
+- used for big data (OLAP, analytical processing, big data analysis)
+- large volume
+- analytics
+- 
