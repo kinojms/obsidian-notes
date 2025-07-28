@@ -43,4 +43,6 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 - also an object storage, but the difference is that this is more for **long-term**
 - specifically called an **archival** storage which uses magnetic tapes (like a cassette)
 	- functions like a long tape (like a turing machine) that has a reader which reads the middle part of the strip as it rotates
+	- you can't skip here, you have to rewind it if you want to go back to a certain part
 - cheapest price per GB
+- not instant retrieval
