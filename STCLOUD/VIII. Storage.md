@@ -15,4 +15,8 @@
 
 *Other services are generally branches of these main services*
 
+# Storage
 
+Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
+
+## Amazon 

@@ -34,16 +34,17 @@
 - not that hard to learn—pretty easy to use
 	- does have a learning curve, but is generally easy once you get the hang of it
 - best option if you only want to run/test a code and don't need to run it 24/7
+- NO CONTROL
 ### Orchestration
 - kind of like PaaS as well
 	- you just have to setup what you want (the config) then it deploys it for you
-- focus your code and your application
+- **focus your code and your application**
 - helps us look at it in the perspective of a developer
-- orchestrates the deployment of the resources for you
+- **orchestrates the deployment of the resources for you**
 - follows best practices for deployment
-- this service is free, but you pay for the additional resources like database
+- this service is **free**, but you **pay for the additional resources** like database
 - lets you NOT think about infrastructure, only your code
-- can give control to infrastructure after the initial configuration/deployment
+- **can give control to infrastructure after the initial configuration/deployment—unlike Serverless**
 
 *Note: Serverless means you don't manage the server, but technically it still has a server hosting it*
 *Containers are OS-based; they share the kernel of the host OS*
