@@ -32,3 +32,8 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 	- a group of many blocks
 - VM/CT
 - hard drives, SSDs use block storage
+- great for dynamic files (those that constantly change)
+	- Ex: text files, documents, databases, etc.
+## Amazon EFS
+- NFS - network file systems
+- 0
