@@ -40,7 +40,10 @@
 - focus your code and your application
 - helps us look at it in the perspective of a developer
 - orchestrates the deployment of the resources for you
-- follows best p
+- follows best practices for deployment
+- this service is free, but you pay for the additional resources like database
+- lets you NOT think about infrastructure, only your code
+- can give control to infrastructure after the initial configuration/deployment
 
 *Note: Serverless means you don't manage the server, but technically it still has a server hosting it*
 *Containers are OS-based; they share the kernel of the host OS*
