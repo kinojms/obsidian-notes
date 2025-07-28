@@ -19,4 +19,9 @@
 
 Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 
-## Amazon 
+## Amazon S3
+- object storage
+- the entire entity is considered an object
+- great for static files (images, videos, audio)
+- each file is an object
+- Ex: Google Drive
