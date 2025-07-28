@@ -29,4 +29,5 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 ## Amazon EBS
 - block storage
 - treats a file as a series of chunks or clusters
+	- a group of many blocks
 - VM/CT
