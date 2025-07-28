@@ -84,4 +84,8 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 - Data Warehousing is great for large volumes of data
 - Enterprise SQL is great for High-speed Transaction
 
-# IAM ()
+# IAM (Security)
+- Directory Services - like phonebooks
+- manages users, groups, roles, policies
+	- role - a temporary assignment to a user
+- authentication & authorization
