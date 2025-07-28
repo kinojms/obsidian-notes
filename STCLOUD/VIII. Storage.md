@@ -36,4 +36,7 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 	- Ex: text files, documents, databases, etc.
 ## Amazon EFS
 - NFS - network file systems
-- 0
+- high scale storage
+- file sharing
+- non root disk
+- used x`
