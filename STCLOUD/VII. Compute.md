@@ -161,6 +161,3 @@ Storage - distributed file systems, large storage, fast I/O or IOPS (Input/Outpu
 	- faster to launch and stop or terminate than VMs
 
 *Dockers are like Hypervisors Pro Max (Dockers are Hypervisors that can do more) for Containers. They're the open-source product that creates Containers*
-
-
-
