@@ -19,11 +19,12 @@
 - OS, patching, backups, anything OS and network-related can be configured
 - can theoretically do most of the things with highest levels of flexibility
 ### Containers (CT)
-- OS-level virtualization (guest uses the same as host OS)
+- **OS-level virtualization** (guest uses the same as host OS)
 - lightweight machine that allows us to simply start/stop, replicate, etc. very quickly
 	- this is because it's being shared with the host
-- has less control and flexibility
-- a 
+- **has less control and flexibility**
+- a type of virtualization—**focus on software or app**
+	- a container set up as an Apache server or a SQL database, etc.
 
 *Note: Serverless means you don't manage the server, but technically it still has a server hosting it*
 *Containers are OS-based; they share the kernel of the host OS*
