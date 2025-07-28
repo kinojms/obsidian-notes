@@ -72,6 +72,7 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 ### Amazon Aurora
 - Enterprise SQL
 - does distributed querying 
+- good for enterprises
 - SQL
 - high performance
 - clustering
