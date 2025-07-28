@@ -62,14 +62,12 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 - Ex: MongoDB
 - XML, JSON
 - horizontal scale - entries have different columns
-
-### Amazon Redshift
+## Amazon Redshift
 - Data Warehousing
 - used for big data (OLAP, analytical processing, big data analysis)
 - large volume
 - analytics
-
-### Amazon Aurora
+## Amazon Aurora
 - Enterprise SQL
 - does distributed computing thru really fast transactions/querying 
 - good for enterprises
@@ -80,3 +78,8 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 - DB -> enterprise
 - SaaS -> SQL
 - compatible with mySQL and PostgreSQL
+
+*SQL is great for Vertical Scaling*
+*Non-SQL is great for Horizontal Scaling*
+*Data Warehousing is g*
+*Enterprise SQL is great for High-speed Transaction *
