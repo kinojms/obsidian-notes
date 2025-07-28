@@ -14,11 +14,12 @@
 
 ## Four Compute Categories
 ### Virtual Machines (VM)
-- high control & responsibility
+- **highest level of control & responsibility
 - closest ones to represent physical computers
 - OS, patching, backups, anything OS and network-related can be configured
+- can theoretically do most of the things with highest levels of flexibility
 ### Containers (CT)
-- OS 
+- OS-level virtualiza
 
 *Note: Serverless means you don't manage the server, but technically it still has a server hosting it*
 *Containers are OS-based; they share the kernel of the host OS*
