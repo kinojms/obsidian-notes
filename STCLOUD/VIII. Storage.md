@@ -39,4 +39,4 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 - high scale storage
 - file sharing
 - non root disk
-- used x`
+- 
