@@ -21,6 +21,7 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 
 ## Amazon S3
 - object storage
+	- mod
 - the entire entity is considered an object
 - great for static files (images, videos, audio)
 - each file is an object
@@ -88,4 +89,5 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 - Directory Services - like phonebooks
 - manages users, groups, roles, policies
 	- role - a temporary assignment to a user
+	- policies - to allow and deny access
 - authentication & authorization
