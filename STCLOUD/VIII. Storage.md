@@ -58,4 +58,7 @@ Has four categories: Amazon S3, Amazon EBS, Amazon EFS, Amazon S3 Glacier
 - *if you are confident in your skills in handling databases, it might be better to opt for VMs instead*
 ## Amazon DynamoDB
 - Non-SQL
-- 
+- key-value pair
+- Ex: MongoDB
+- XML, JSON
+- horizontal scale - entries have different columns
