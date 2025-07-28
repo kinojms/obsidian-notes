@@ -12,6 +12,13 @@
 - services are **options** for you to choose from
 - where computation happens
 
+## Four Compute Categories
+### Virtual Machines (VM)
+- high control & responsibility
+- closest ones to represent physical computers
+### CTs
+
+
 *Note: Serverless means you don't manage the server, but technically it still has a server hosting it*
 *Containers are OS-based; they share the kernel of the host OS*
 
