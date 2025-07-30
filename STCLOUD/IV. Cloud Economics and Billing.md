@@ -15,7 +15,6 @@
 *Note: We use Cloud Pricing Calculators to estimate how much it will cost you if you would opt for cloud or on-premise*
 
 *We WON'T have computations for Midterms*
-
 ## Storage
 - charged by:
 	- charged typically per GB
