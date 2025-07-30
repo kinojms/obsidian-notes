@@ -52,7 +52,7 @@
 		- *capex + opex*
 	- **No Upfront Payments Reserved Instance (NURI)** -> Smaller discount
 		- rent but w/ commitment
-		- *high opex, low capex*
+		- *low capex, high opex*
 ## Pay less when you use more and as AWS grows
 - volume based discounts
 - realize volume-based discounts:
