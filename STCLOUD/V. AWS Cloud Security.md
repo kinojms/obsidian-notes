@@ -44,7 +44,7 @@
 - services are typically accessed via web browser, mobile app, or application programming interface (API)
 - CUSTOMERS **do not** need to **manage the infrastructure** that supports the service
 <mark style="background: #FFF3A3A6;">- the one who sets up the service is the one in control (thus is responsible for any issues)</mark>
-</mark>
+
 Sample Services Managed by the Customer:
 Amazon EC2, Amazon Elastic Block Store, Amazon Virtual Private Cloud
 
