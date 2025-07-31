@@ -33,6 +33,7 @@
 - more flexibility over configuring networking and storage settings
 - customer is responsible for managing more aspects of the security
 - customer configures the access controls
+- highest flexibility and control
 #### Platform as a service (PaaS)
 - customer does not need to manage the underlying infrastructure
 - AWS handles the OS, database patching, firewall configuration, and disaster recovery
