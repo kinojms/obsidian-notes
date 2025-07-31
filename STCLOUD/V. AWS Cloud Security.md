@@ -44,7 +44,7 @@
 - customers do not need to manage the infrastructure that supports the service
 - the one who sets up the service is the one in control (thus is responsible for any issues)
 
-Sample Services Managed by Customer:
+Sample Services Managed by the Customer:
 Amazon EC2, Amazon Elastic Block Store, Amazon Virtual Private Cloud
 
 Sample Services Managed by AWS:
