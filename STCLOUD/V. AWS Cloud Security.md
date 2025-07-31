@@ -18,7 +18,7 @@
 *Data Carving - recovering "deleted" data*
 
 ## Customer Responsibility: Security in the cloud
-- Amazon Elastic Compute Cloud (Amazon EC2) isntance OS
+- Amazon Elastic Compute Cloud (Amazon EC2) instance OS
 	- including patching, maintenance
 - applications
 	- passwords, role-based access, etc.
