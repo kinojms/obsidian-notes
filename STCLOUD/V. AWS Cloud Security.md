@@ -63,6 +63,7 @@ AWS Trusted Advisor, AWS Shield, Amazon Chime
 	- ex resources: an Amazon EC2 instance or an Amazon S3 bucket
 - you can control who can terminate Amazon EC2 instances for example
 - define fine-grained access rights
+- **Discord roles**
 
 ## IAM: Essential Components
 1. IAM User - a person or application (calls an API) that can authenticate with an AWS account
