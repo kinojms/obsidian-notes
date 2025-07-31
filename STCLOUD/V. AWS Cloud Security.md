@@ -35,15 +35,15 @@
 - CUSTOMER configures the **access controls**
 - **highest flexibility and control**
 #### Platform as a service (PaaS)
-- CUSTOMER **does not** need to manage the underlying infrastructure
+- CUSTOMER **does not** need to manage the **underlying infrastructure**
 - **AWS** handles the OS, database patching, firewall configuration, and disaster recovery
 - CUSTOMER can **focus on managing code or data**
 #### Software as a Service (SaaS)
-- software is centrally hosted
-- licensed on a subscription model or pay-as-you-go basis
+- **software is centrally hosted**
+- licensed on a subscription model or **pay-as-you-go** basis
 - services are typically accessed via web browser, mobile app, or application programming interface (API)
-- customers do not need to manage the infrastructure that supports the service
-- the one who sets up the service is the one in control (thus is responsible for any issues)
+- CUSTOMERS **do not** need to **manage the infrastructure** that supports the service
+- *the one who sets up the service is the one in control (thus is responsible for any issues)
 
 Sample Services Managed by the Customer:
 Amazon EC2, Amazon Elastic Block Store, Amazon Virtual Private Cloud
