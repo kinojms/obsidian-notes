@@ -7,3 +7,6 @@
 
 ## Note
 - they'll add dual channel memory—two tables to be solved at the same time
+
+![[Pasted image 20250802081957.png]]
+- since there's no arrival time, all processes are a
