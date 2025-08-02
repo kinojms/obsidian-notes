@@ -8,8 +8,8 @@
 ## Note
 - they'll add dual channel memory—two tables to be solved at the same time
 - Pages 
-- Memory na kinakain ng Process
-- are what we shoot into Frames
+	- Memory that is eaten/used by a Process
+	- are what we shoot into Frames
 
 ![[Pasted image 20250802081957.png]]
 - since there's no arrival time, all processes are already in the **ready** queue
