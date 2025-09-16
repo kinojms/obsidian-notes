@@ -24,10 +24,9 @@ Resource Allocation Graph
 ![[Pasted image 20250916130810.png]]
 - this will show up in the exam: "This is a resource allocation graph, describe it"
 	- "Resource 2 is assigned to Thread 1 and Thread 2"
-	- arrow coming out of the threads = resources being demanded(?)
 	- "Is this graph a deadlock? True or False"
 	- "Articulate why is there a deadlock?"
-		- ""
 - T1, T2, T3 are threads. These are consumers of resources
-- Arrow coming out of resources means it's assi
+- Arrow coming out of resources means it's assigned to a Thread
+- Arrow coming out of the threads = resources being demanded(?)
 
