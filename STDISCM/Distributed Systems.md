@@ -5,4 +5,10 @@
 - integrative view - connecting existing networked computer systems into a larger system
 - expansive view - an existing networked computer systems is extended with additional computers
 
-### Two defini
+### Two definitions
+- Decentralized system
+	- processes and resources are **necessarily** spread across multiple computers
+	- ex: MVC applications
+- Distributed System
+	- processes and resources are **sufficiently** spread across multiple computers
+	- ex: 
