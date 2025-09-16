@@ -26,4 +26,10 @@
 
 ### Perspectives on Distributive Systems
 - Architecture - common organizations
-- Pro
+- Process - what kind of processes, and their relationships
+- Communication - facilities for exchanging data
+- Coordination - application-independent algorithms
+- Naming - how do you identify resources?
+- Consistency and Replication - performance requires of data, which need to be **the same**
+- Fault tolerance - keep running in the presence of partial failures
+- 
