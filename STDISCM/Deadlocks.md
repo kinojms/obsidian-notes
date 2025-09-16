@@ -96,5 +96,7 @@ Issue with locking: paunahan maglock tapos wala na, ginamit na ng isa ung resour
 	- resources that the thread needs to complete
 	- how many threads will need to be terminated
 	- is the thread interactive or batch?
-- Apple has the tendency to kill the foreground process
-- RedHat, Sentos, Fedore, kills background processes first, then preserves priority process
+		- Apple has the tendency to kill the foreground process
+		- RedHat, Centos, Fedora kills background processes first, then preserves priority processes (database, servers, etc.)
+- resource preemption
+	- select a vi
