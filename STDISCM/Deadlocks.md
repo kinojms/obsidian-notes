@@ -60,3 +60,5 @@ Issue with locking: paunahan maglock tapos wala na, ginamit na ng isa ung resour
 			- since you heard the busy tone, you can drop the call for now then try again later
 		- ethernet/WiFi - on collision, back off
 		- inefficient due to retry attempts
+	- No preemption:
+		- if a process that is holding some resources requests another resource that cannot be immediately allocated to it, then all resources currently being held are released
