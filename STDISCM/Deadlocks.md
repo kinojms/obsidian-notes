@@ -52,7 +52,7 @@ Issue with locking: paunahan maglock tapos wala na, ginamit na ng isa ung resour
 	- Infinite resources
 		- have an abundance of resources that no one runs out
 		- does not have to be infinite, just large to be more than enough
-		- "infinite" is a bit of a stretch—since in CS, "infinite" just means "very big"
+		- "infinite" is a bit of a stretch—since in CS, "infinite" just means "very big" or "a lot"
 	- No sharing of resources
 	- Do not allow waiting
 		- phone line - busy
