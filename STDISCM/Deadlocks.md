@@ -62,3 +62,8 @@ Issue with locking: paunahan maglock tapos wala na, ginamit na ng isa ung resour
 		- inefficient due to retry attempts
 	- No preemption:
 		- if a process that is holding some resources requests another resource that cannot be immediately allocated to it, then all resources currently being held are released
+		- inefficient and very niche
+	- Circular wait
+		- impose a total ordering of all resource types, and require that each thread requests resources in an increasing
+		- borderline banker's algorithm
+		- won't show up in the e
