@@ -17,4 +17,7 @@
 ### Some common misconceptions
 - centralized solutions **do not scale**
 	- make distinction between **logically** and **physically** centralized
-	- the root of the DNS
+	- the root of the DNS (Domain Name Service):
+		- logically centralized
+		- physically (massively) distributed
+		- decentralized across several organizations
