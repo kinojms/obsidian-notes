@@ -72,4 +72,6 @@ Issue with locking: paunahan maglock tapos wala na, ginamit na ng isa ung resour
 	- simplest and most useful model requires that each thread declares the maximum number of resources of each type that it may need
 	- the deadlock-avoidance algorithm dynamically examines the resource-allocation state to ensure that there can never be a circular-wait condition
 	- resource-allocation state is defined by the number of available and allocated resources, and the maximum demands of the processes
-	- analyze the state of
+	- analyze the state of your current resources so that you can allocate them in order to avoid deadlocks
+
+## Din
