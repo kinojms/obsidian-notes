@@ -29,4 +29,7 @@ Resource Allocation Graph
 - T1, T2, T3 are threads. These are consumers of resources
 - Arrow coming out of resources means it's assigned to a Thread
 - Arrow coming out of the threads = resources being demanded(?)
+![[Pasted image 20250916131135.png]]
+- this has a circular wait
+- but since T2 and T4 are independent (can operate immediately), it breaks the Hold & Wait characteristic, thus resulting in a 
 
