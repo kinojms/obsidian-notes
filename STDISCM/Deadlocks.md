@@ -84,4 +84,10 @@ Issue with locking: paunahan maglock tapos wala na, ginamit na ng isa ung resour
 	- this is to detect the deadlock in the first place
 - mechanisms create a graph of dependencies
 ![[Pasted image 20250916133541.png]]
+- another option is to compute if all requests are serviceable, if not, then it's a deadlock
 
+## Recovery from Deadlock
+- abort all deadlocked threads
+- abort one process at a time until the deadlock cycle is eliminated
+- in which order should we choose to abort?
+	- priority of th
