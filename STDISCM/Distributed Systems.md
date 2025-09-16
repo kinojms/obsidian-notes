@@ -21,3 +21,9 @@
 		- logically centralized
 		- physically (massively) distributed
 		- decentralized across several organizations
+- centralized solutions have a single point of failure
+	- generally not true
+
+### Perspectives on Distributive Systems
+- Architecture - common organizations
+- Pro
