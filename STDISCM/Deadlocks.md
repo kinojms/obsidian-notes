@@ -99,4 +99,6 @@ Issue with locking: paunahan maglock tapos wala na, ginamit na ng isa ung resour
 		- Apple has the tendency to kill the foreground process
 		- RedHat, Centos, Fedora kills background processes first, then preserves priority processes (database, servers, etc.)
 - resource preemption
-	- select a vi
+	- select a victim - minimize cost
+	- rollback - return to some safe state, restart the thread for that state
+	- starvation - same thread may always be picked as victim, include number of rollback in cost factor
