@@ -11,5 +11,8 @@ Deadlock Characterization Attributes <- this will show up in the exam
 2. Hold and wait
 	- a thread holding at least one resource is waiting to acquire additional resources help by other threads
 3. No preemption
-	- a resource can be released only voluntarily by the thread ho
+	- a resource can be released only voluntarily by the thread holding it, after that thread has completed its task
+	- voluntary releasing of resources being consumed
 4. Circular wait
+	- waiting on someone else to move while they're also waiting for you to move 
+	- Mexican standoff
