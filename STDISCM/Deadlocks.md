@@ -69,4 +69,6 @@ Issue with locking: paunahan maglock tapos wala na, ginamit na ng isa ung resour
 		- won't show up in the exam (hopefully)
 ## Deadlock Avoidance
 - assumes a priori information available
-	- simplest 
+	- simplest and most useful model requires that each thread declares the maximum number of resources of each type that it may need
+	- the deadlock-avoidance algorithm dynamically examines the resource-allocation state to ensure that there can never be a circular-wait condition
+	- resource-allocation state is defined by the number of available and allocated resources, and the maximum demands 
