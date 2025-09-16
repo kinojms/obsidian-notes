@@ -90,4 +90,9 @@ Issue with locking: paunahan maglock tapos wala na, ginamit na ng isa ung resour
 - abort all deadlocked threads
 - abort one process at a time until the deadlock cycle is eliminated
 - in which order should we choose to abort?
-	- priority of th
+	- priority of the thread
+	- how long was the thread computed, and how much longer to completion
+	- resources that the threads has used
+	- resources that the thread needs to complete
+	- how many threads will need to be terminated
+	- is the thread interactive or batch?
