@@ -74,4 +74,6 @@ Issue with locking: paunahan maglock tapos wala na, ginamit na ng isa ung resour
 	- resource-allocation state is defined by the number of available and allocated resources, and the maximum demands of the processes
 	- analyze the state of your current resources so that you can allocate them in order to avoid deadlocks
 
-## Din
+## Dining-Philosophers Problem
+- Homework (coding exercise with write-up)
+- easy visualizable problem in terms of deadlocking
