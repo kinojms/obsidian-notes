@@ -57,6 +57,6 @@ Issue with locking: paunahan maglock tapos wala na, ginamit na ng isa ung resour
 	- Do not allow waiting
 		- phone line - busy
 			- calling someone who's already talking to someone else
-			- since you heard the busy tone, you can drop the call for now then try a
+			- since you heard the busy tone, you can drop the call for now then try again later
 		- ethernet/WiFi - on collision, back off
 		- inefficient due to retry attempts
