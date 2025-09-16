@@ -30,3 +30,10 @@
 - Consistency and Replication - performance requires of data, which need to be **the same**
 - Fault tolerance - keep running in the presence of partial failures
 - Security - ensure authorized access to resources
+
+### What do we want to achieve?
+- overall design goals
+	- support sharing of resources
+	- distribution transparency
+	- openness
+	- scalability
