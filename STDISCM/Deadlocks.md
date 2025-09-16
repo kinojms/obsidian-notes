@@ -31,5 +31,13 @@ Resource Allocation Graph
 - Arrow coming out of the threads = resources being demanded(?)
 ![[Pasted image 20250916131135.png]]
 - this has a circular wait
-- but since T2 and T4 are independent (can operate immediately), it breaks the Hold & Wait characteristic, thus resulting in a 
+- but since T2 and T4 are independent (can operate immediately), it breaks the Hold & Wait characteristic, thus resulting in a Non-Deadlock scenario
+
+# Handling Deadlocks
+- ensure that the system will **never** enter a deadlock state:
+	- prevention
+	- avoidance
+		- pretend the deadlock never happened
+- allow the system to enter a deadlock state and then recover
+- ignore the p
 
