@@ -64,6 +64,9 @@ Issue with locking: paunahan maglock tapos wala na, ginamit na ng isa ung resour
 		- if a process that is holding some resources requests another resource that cannot be immediately allocated to it, then all resources currently being held are released
 		- inefficient and very niche
 	- Circular wait
-		- impose a total ordering of all resource types, and require that each thread requests resources in an increasing
+		- impose a total ordering of all resource types, and require that each thread requests resources in an increasing order of enumeration
 		- borderline banker's algorithm
-		- won't show up in the e
+		- won't show up in the exam (hopefully)
+## Deadlock Avoidance
+- assumes a priori information available
+	- simplest 
