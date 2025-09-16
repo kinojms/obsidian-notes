@@ -77,3 +77,11 @@ Issue with locking: paunahan maglock tapos wala na, ginamit na ng isa ung resour
 ## Dining-Philosophers Problem
 - Homework (coding exercise with write-up)
 - easy visualizable problem in terms of deadlocking
+![[Pasted image 20250916133458.png]]
+
+## Deadlock Detection
+- allow system to enter deadlock state
+	- this is to detect the deadlock in the first place
+- mechanisms create a graph of dependencies
+![[Pasted image 20250916133541.png]]
+
