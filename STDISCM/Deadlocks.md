@@ -16,3 +16,9 @@ Deadlock Characterization Attributes <- this will show up in the exam
 4. Circular wait
 	- waiting on someone else to move while they're also waiting for you to move 
 	- Mexican standoff
+	- "sasama ako if sasama sya"
+	- mutual dependency on one another
+
+Resource Allocation Graph
+- has vertices and edges (obviously)
+- V is 
