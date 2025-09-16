@@ -45,5 +45,12 @@ Issue with locking: paunahan maglock tapos wala na, ginamit na ng isa ung resour
 - invalidate one of the four necessary conditions for deadlock:
 	- Mutual Exclusion - not required for sharable resources; must hold for non-sharable resources
 	- Hold and Wait - must guarantee that whenever a thread requests a resource, it does not hold any other resources
+		- if a process wants to execute more, it'll try to access more res
 		- require threads to request and allocate all its resources before it begins execution or allow threads to request resources only when the thread has none allocated to it
-		- Low resource utilization; starvation possibl
+		- **Low resource utilization; starvation possible**
+	- Infinite resources
+		- have an abundance of resources that no one runs out
+		- does not have to be infinite, just large to be more than enough
+	- No sharing of resources
+	- Do not allow waiting
+		- 
