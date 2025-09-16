@@ -11,4 +11,4 @@
 	- ex: MVC applications
 - Distributed System
 	- processes and resources are **sufficiently** spread across multiple computers
-	- ex: Torrent
+	- ex: Torrents, Fitgirl, etc.
