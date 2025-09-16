@@ -3,9 +3,9 @@
 - resource types are R1, R2, ..., Rm
 - CPU cycles, memory space, I/O devices
 
-Issue with locking, paunahan maglock tapos wala na, ginamit na ng isa ung resources
+Issue with locking: paunahan maglock tapos wala na, ginamit na ng isa ung resources
 
-Deadlock Characterization Attributes <- this will show up in the exam
+## Deadlock Characterization Attributes <- this will show up in the exam
 1. Mutual exclusion
 	- only one thread at a time can use a resource
 2. Hold and wait
@@ -19,7 +19,7 @@ Deadlock Characterization Attributes <- this will show up in the exam
 	- "sasama ako if sasama sya"
 	- mutual dependency on one another
 
-Resource Allocation Graph
+## Resource Allocation Graph
 - has vertices and edges (obviously)
 ![[Pasted image 20250916130810.png]]
 - this will show up in the exam: "This is a resource allocation graph, describe it"
@@ -39,5 +39,5 @@ Resource Allocation Graph
 	- avoidance
 		- pretend the deadlock never happened
 - allow the system to enter a deadlock state and then recover
-- ignore the p
+- ignore the problem and pretend that deadlocks never occur in the system
 
