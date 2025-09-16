@@ -41,3 +41,7 @@ Issue with locking: paunahan maglock tapos wala na, ginamit na ng isa ung resour
 - allow the system to enter a deadlock state and then recover
 - ignore the problem and pretend that deadlocks never occur in the system
 
+## Deadlock Prevention
+- invalidate one of the four necessary conditions for deadlock:
+	- Mutual Exclusion - not required for sharable resources; must hold for non-sharable resources
+	- Hold and Wait - must guarantee that whenev
