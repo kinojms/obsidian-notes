@@ -12,3 +12,9 @@
 - Distributed System
 	- processes and resources are **sufficiently** spread across multiple computers
 	- ex: Torrents, Fitgirl, etc.
+		- functions both as a producer and consumer
+
+### Some common misconceptions
+- centralized solutions **do not scale**
+	- make distinction between **logically** and **physically** centralized
+	- the root of the DNS
